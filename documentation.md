@@ -32,11 +32,14 @@ Note that the models built here are set to run on the CPU, but can be modified t
 - [Running the Model](#running-the-model)
   - [Running Model on Streamlit](#running-model-on-streamlit)
   - [Running Model within IDE](#running-model-within-ide)
+- [Repo Organisation](#repo-organisation)
 - [Model Creation Process](#model-creation-process)
   - [Data Collection & Cleaning](#data-collection--cleaning)
+    - [Sourcing and Cleaning Location Names Data](#sourcing-and-cleaning-location-names-data)
+    - [Sourcing Data for Annotations](#sourcing-data-for-annotations)
   - [Data Annotation](#data-annotation)
     - [Automated Annotations with spaCy EntityRuler](#automated-annotations-with-spacy-entityruler)
-    - [Manuak Annotations with Doccano](#manuak-annotations-with-doccano)
+    - [Manual Annotations with Doccano](#manual-annotations-with-doccano)
   - [Model Training](#model-training)
     - [Considerations and configuration for v1.1](#considerations-and-configuration-for-v11)
     - [Considerations and configuration for v2.0](#considerations-and-configuration-for-v20)
@@ -60,7 +63,7 @@ The Enhanced NER-based model is most flexible - it can pick out new locations, l
 
 ## Pipes Available
 
-Pipes are arranged in order from left to right
+Pipes are arranged in order from left to right.
 
 | Models | Tokenizer | POS Tagger | Dependency Parser | "Locations Dictionary" EntityRuler | NER |
 | ------ | :-------: | :--------: | :---------------: | :--------------------------------: | :-: |
@@ -82,6 +85,8 @@ streamlit run streamlit/model_demo.py
 
 3. You can now view the app at http://localhost:8501/
 
+Note that the Streamlit mini-app will only display Model v2.1 and v3.0.
+
 ## Running Model within IDE
 
 1. Ensure that packages and dependencies for spaCy (& Jupyter Notebook, if desired) are downloaded into your environment.
@@ -95,6 +100,8 @@ from spacy import displacy
 
 4. Link the path to the model of choice, and load it.
 
+- For models v1.0, v2.0 and v3.0, note that you will need to further reference the model-best folder
+
 ```
 path = "models/model_v3.0/model_best"
 nlp = spacy.load(path)
@@ -107,15 +114,59 @@ doc = nlp("This example text was created at 45 Maxwell Road.")
 displacy.render(doc, style="ent")
 ```
 
+# Repo Organisation
+
+The repo is organised into the following folders:
+
+| Folder           | Subfolder                  | Contents                                                                         |
+| ---------------- | -------------------------- | -------------------------------------------------------------------------------- |
+| archive          |                            | Jupyter Notebooks use to trial certain scripts                                   |
+|                  | doccano_trial              | Imported data from a Doccano test annotation trial                               |
+| data             | doccano_annotated_data     | Imported final Doccano annotations for v3.0                                      |
+|                  | extracted_locations        | Singapore locations data, post-cleaning                                          |
+|                  | singapore-postal-codes     | [2017 OneMap Data](https://github.com/xkjyeah/singapore-postal-codes) by xkyyeah |
+|                  | text_data                  | Text for annotations                                                             |
+|                  | training_datasets          | Training and Test Datasets for spaCy in json and spacy binary formats            |
+| models           | loc_er                     | _en_core_web_md_ model with "locations dictionary" EntityRuler pipe added        |
+|                  | v1.1                       | Trial to create base model for Dictionary-centric method                         |
+|                  | v2.0                       | Base model for Dictionary-centric method                                         |
+|                  | v2.1                       | v2.0/model-best with "locations dictionary" EntityRuler pipe added               |
+|                  | v3.0                       | Enhanced NER-based model                                                         |
+| streamlit        |                            | Model Demo for Streamlit                                                         |
+| training_config  |                            | Base configuration and final configuration files for models                      |
+| training_scripts | doccano_base_training      | Scripts for model training specific to Enhanced NER-based model                  |
+|                  | entity_ruler_base_training | Scripts for model training specific to Dictionary-centric model                  |
+|                  |                            | Scripts for model training common to both methods                                |
+
 # Model Creation Process
 
+Different steps were taken to create Dictionary-centric Models (v1.0, v2.0, v2.1) and Enhanced NER-based Model (v3.0).
+
+**Dictionary-centric Models**
+
+1. Sourcing and cleaning location names data
+2. Sourcing annotation data
+3. Utilising the location names data to create annotations automatically with spaCy EntityRuler
+4. Training the model with the annotations
+5. Adding the location names data as an EntityRuler pipe
+
+**Enhanced NER-based Model**
+
+1. Sourcing annotation data
+2. Creating annotations manually with Doccano
+3. Training the model with the annotations
+
 ## Data Collection & Cleaning
+
+### Sourcing and Cleaning Location Names Data
+
+### Sourcing Data for Annotations
 
 ## Data Annotation
 
 ### Automated Annotations with spaCy EntityRuler
 
-### Manuak Annotations with Doccano
+### Manual Annotations with Doccano
 
 ## Model Training
 
