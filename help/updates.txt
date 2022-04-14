@@ -1,0 +1,11 @@
+- "safety net" - list of addresses and building names
+- more training data
+- disambiguation of abbreviations
+- presentation (streamlit)
+- what next (onemap api)
+
+for the km thing 
+- comment on the jupyter notebook and digest code 
+- short report on eplanner/dams pain points 
+- how to modify to extract from dms automated 
+- advanced queries (last 5 years + residential + within x subzone) 

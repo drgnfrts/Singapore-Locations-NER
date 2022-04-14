@@ -1,0 +1,6323 @@
+[
+    [
+        "Please avoid the above areas for the next one hour,\" said PUB in a Facebook post.",
+        {
+            "entities": [
+                [
+                    58,
+                    61,
+                    "ORG"
+                ],
+                [
+                    67,
+                    75,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The new Comcentre will also be equipped with hybrid working spaces for other tenants.",
+        {
+            "entities": [
+                [
+                    8,
+                    17,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Straits Times understands that the accident took place at the site of the upcoming Hougang Olive BTO project in Hougang Avenue 3.",
+        {
+            "entities": [
+                [
+                    87,
+                    100,
+                    "LOC"
+                ],
+                [
+                    116,
+                    132,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "This incident occurred near the proposed site of the Nicoll Highway station, not far from the Merdeka Bridge.",
+        {
+            "entities": [
+                [
+                    53,
+                    75,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Housing two decommissioned power plants, oil and gas tanks, and ancillary buildings, the 15-hectare Pasir Panjang Power District, located next to the Labrador Nature Reserve, will be redeveloped as part of the Greater Southern Waterfront transformation plans.",
+        {
+            "entities": [
+                [
+                    100,
+                    128,
+                    "LOC"
+                ],
+                [
+                    150,
+                    173,
+                    "LOC"
+                ],
+                [
+                    210,
+                    237,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Institute of Policy Studies falls under the Lee Kuan Yew School of Public Policy at the National University of Singapore. It is located at the university's Bukit Timah campus.",
+        {
+            "entities": [
+                [
+                    4,
+                    31,
+                    "ORG"
+                ],
+                [
+                    48,
+                    84,
+                    "ORG"
+                ],
+                [
+                    92,
+                    124,
+                    "ORG"
+                ],
+                [
+                    160,
+                    171,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Johor-Singapore Causeway has caused ecological problems, most notably accumulation of silt in the Johore Strait.",
+        {
+            "entities": [
+                [
+                    4,
+                    28,
+                    "LOC"
+                ],
+                [
+                    102,
+                    115,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The iconic Chong Pang City was established in the 1980s as Yishun's first neighbourhood centre",
+        {
+            "entities": [
+                [
+                    11,
+                    26,
+                    "LOC"
+                ],
+                [
+                    59,
+                    65,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "First announced as part of the Urban Redevelopment Authority (URA) Master Plan 2014, the future 21.5-hectare Marina South precinct will house over 9,000 private residential units built next to Gardens by the Bay.",
+        {
+            "entities": [
+                [
+                    31,
+                    60,
+                    "ORG"
+                ],
+                [
+                    62,
+                    65,
+                    "ORG"
+                ],
+                [
+                    109,
+                    121,
+                    "LOC"
+                ],
+                [
+                    193,
+                    211,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Tunnelling works for the CCL6 were completed on 12 January 2022, with a final tunnel breakthrough from Prince Edward Road station into Cantonment station.",
+        {
+            "entities": [
+                [
+                    103,
+                    129,
+                    "LOC"
+                ],
+                [
+                    135,
+                    153,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Tuas Nexus will also help to expand the lifespan of Semakau Landfill as it allows incineration bottom ash to be extracted from waste.",
+        {
+            "entities": [
+                [
+                    52,
+                    68,
+                    "LOC"
+                ],
+                [
+                    0,
+                    10,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Planning in Singapore first began with the Jackson Plan in 1822, which divided Singapore town into multiple ethnic areas and established Singapore as a commercial and administrative centre.",
+        {
+            "entities": [
+                [
+                    12,
+                    21,
+                    "LOC"
+                ],
+                [
+                    137,
+                    146,
+                    "LOC"
+                ],
+                [
+                    79,
+                    88,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "By the end of 1990, the Branch line has further linked Choa Chu Kang to the network while the inauguration of Boon Lay station on 6 July 1990 marked the completion of the initial system two years ahead of schedule.",
+        {
+            "entities": [
+                [
+                    24,
+                    35,
+                    "FAC"
+                ],
+                [
+                    55,
+                    68,
+                    "FAC"
+                ],
+                [
+                    110,
+                    126,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The 43-kilometre (27 mi), 32 station fully underground Thomson-East Coast Line is designed to connect the northern region of Singapore to the south, running parallel to the existing North South line passing through Woodlands, Sin Ming, Upper Thomson, and Marina Bay before turning east and running through Tanjong Rhu, Siglap, Marine Parade, and Bedok.",
+        {
+            "entities": [
+                [
+                    55,
+                    78,
+                    "FAC"
+                ],
+                [
+                    125,
+                    134,
+                    "LOC"
+                ],
+                [
+                    182,
+                    198,
+                    "FAC"
+                ],
+                [
+                    215,
+                    224,
+                    "LOC"
+                ],
+                [
+                    226,
+                    234,
+                    "LOC"
+                ],
+                [
+                    236,
+                    249,
+                    "LOC"
+                ],
+                [
+                    306,
+                    317,
+                    "LOC"
+                ],
+                [
+                    319,
+                    325,
+                    "LOC"
+                ],
+                [
+                    327,
+                    340,
+                    "LOC"
+                ],
+                [
+                    346,
+                    351,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The new third rail replaced its 30-year-old predecessor and is expected to increase reliability of the East West line's electrical system.",
+        {
+            "entities": [
+                [
+                    103,
+                    117,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The line's systems were handed over to SBS Transit on 16 December, with the operator carrying out further tests.",
+        {
+            "entities": [
+                [
+                    39,
+                    50,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "Authorities were sent photographs of a group of people infringing recent enhanced COVID-19 measures in Singapore, by hanging outside and chatting loudly, playing card games and drinking beverages at the link bridge connecting between Blk 478A and 478B Yishun Street 44 on 22 May 2021 at about 10.30pm.",
+        {
+            "entities": [
+                [
+                    103,
+                    112,
+                    "LOC"
+                ],
+                [
+                    234,
+                    242,
+                    "LOC"
+                ],
+                [
+                    247,
+                    268,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "3rd best places are Punggol Park, Changi Village & Sembawang Park, because although there's less light pollution nearby, these parks' skies are facing the Malaysian border, which is also filled with plenty of light pollution.",
+        {
+            "entities": [
+                [
+                    20,
+                    32,
+                    "LOC"
+                ],
+                [
+                    34,
+                    48,
+                    "LOC"
+                ],
+                [
+                    51,
+                    65,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The first such integration on the MRT network, it allows for more efficient land use while improving access to public transport.",
+        {
+            "entities": [
+                [
+                    34,
+                    37,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The National Trades Union Congress (NTUC) will not take up the offer to manage Singapore Island Country Club's (SICC) Sime Golf Course as a public golf course owing to financial considerations, the Ministry of Law and Ministry of Culture, Community and Youth said in a joint statement on Wednesday (Oct 7).",
+        {
+            "entities": [
+                [
+                    4,
+                    34,
+                    "ORG"
+                ],
+                [
+                    36,
+                    40,
+                    "ORG"
+                ],
+                [
+                    79,
+                    108,
+                    "ORG"
+                ],
+                [
+                    112,
+                    116,
+                    "ORG"
+                ],
+                [
+                    118,
+                    134,
+                    "LOC"
+                ],
+                [
+                    198,
+                    213,
+                    "ORG"
+                ],
+                [
+                    218,
+                    258,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "In the evening of 22 November, a section of Eu Tong Sen Street collapsed, and it was closed along with neighbouring streets.",
+        {
+            "entities": [
+                [
+                    44,
+                    62,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "To be completed by 2026, the 4 km (2.5 mi) extension will run from Marina Bay through Keppel, ending at HarbourFront and will close the gap between the Harbourfront and Marina Bay stations, so that the Circle Line is fully orbital.",
+        {
+            "entities": [
+                [
+                    67,
+                    77,
+                    "LOC"
+                ],
+                [
+                    86,
+                    92,
+                    "LOC"
+                ],
+                [
+                    104,
+                    116,
+                    "LOC"
+                ],
+                [
+                    152,
+                    164,
+                    "LOC"
+                ],
+                [
+                    169,
+                    187,
+                    "LOC"
+                ],
+                [
+                    202,
+                    213,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "It will be the second such 'vertical' kampung, after Kampung Admiralty opened in 2018.",
+        {
+            "entities": [
+                [
+                    53,
+                    70,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "When completed, the resort will be Singapore's first Super Low Energy resort.",
+        {
+            "entities": [
+                [
+                    35,
+                    44,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Like its predecessor, the NS Square will continue to host future National Day Parades, as well as a new addition of a permanent gallery dedicated to national servicemen (NSmen) and honour their past and present contributions.",
+        {
+            "entities": [
+                [
+                    26,
+                    35,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "An Integrated Train Testing Centre with several test tracks for different situations and workshops for maintenance and refurbishment is also to be built at Tuas by 2022, with the main function being to test trains and integrated systems robustly before they are deployed on operational lines.",
+        {
+            "entities": [
+                [
+                    3,
+                    34,
+                    "LOC"
+                ],
+                [
+                    156,
+                    160,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "In comparison, competition is less stiff in the mature estates of Kallang/Whampoa, Queenstown and Tampines.",
+        {
+            "entities": [
+                [
+                    66,
+                    73,
+                    "LOC"
+                ],
+                [
+                    74,
+                    81,
+                    "LOC"
+                ],
+                [
+                    83,
+                    93,
+                    "LOC"
+                ],
+                [
+                    98,
+                    106,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The garden is Singapore's first parkland that is purpose-built for patient healing.",
+        {
+            "entities": [
+                [
+                    14,
+                    23,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Train service on the line resumed on 20 November, with the Tuas West extension between Gul Circle and Tuas Link using the new signalling system and the section between Pasir Ris and Joo Koon, together with the Changi Airport Branch continuing to run on the old signalling system.",
+        {
+            "entities": [
+                [
+                    59,
+                    78,
+                    "FAC"
+                ],
+                [
+                    87,
+                    97,
+                    "LOC"
+                ],
+                [
+                    102,
+                    111,
+                    "LOC"
+                ],
+                [
+                    168,
+                    177,
+                    "LOC"
+                ],
+                [
+                    182,
+                    190,
+                    "LOC"
+                ],
+                [
+                    210,
+                    231,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Generally, there is much more rainfall on the western side of the island than on the eastern portion of Singapore, owing to a rain shadow effect.",
+        {
+            "entities": [
+                [
+                    104,
+                    113,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "It consists of four housing zones namely Alkaff District, Woodleigh District, Park Edge District, and Bartley Heights District.",
+        {
+            "entities": [
+                [
+                    41,
+                    47,
+                    "LOC"
+                ],
+                [
+                    58,
+                    67,
+                    "LOC"
+                ],
+                [
+                    78,
+                    87,
+                    "LOC"
+                ],
+                [
+                    102,
+                    117,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "A market village by the waterfront will also offer new retail and dining options located at the eastern end of Campus Boulevard.",
+        {
+            "entities": [
+                [
+                    111,
+                    127,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The British Military Administration focused on alleviating the housing shortage in Singapore, redeveloping the Central Area and to improve living conditions in the congested city centre.",
+        {
+            "entities": [
+                [
+                    4,
+                    35,
+                    "ORG"
+                ],
+                [
+                    83,
+                    92,
+                    "LOC"
+                ],
+                [
+                    111,
+                    123,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "When the 16 stations were announced, Potong Pasir (then named Sennett), Woodleigh and Punggol were not to be built along with the other stations due to the lack of developments around the stations' sites at the time.",
+        {
+            "entities": [
+                [
+                    37,
+                    49,
+                    "LOC"
+                ],
+                [
+                    62,
+                    69,
+                    "LOC"
+                ],
+                [
+                    72,
+                    81,
+                    "LOC"
+                ],
+                [
+                    86,
+                    93,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The estate will feature a 10-hectare Bidadari Park housing a new Alkaff Lake, a 700-metre heritage walk, experiential trials, a Memorial Garden and a children play area named Adventure Playwoods.",
+        {
+            "entities": [
+                [
+                    37,
+                    50,
+                    "LOC"
+                ],
+                [
+                    65,
+                    76,
+                    "LOC"
+                ],
+                [
+                    128,
+                    143,
+                    "FAC"
+                ],
+                [
+                    175,
+                    194,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Valley Spring @ Yishun, is the first public housing project to be built using Prefabricated Prefinished Volumetric Construction (PPVC) where PPVC is a technology that improves construction productivity.",
+        {
+            "entities": [
+                [
+                    0,
+                    22,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Upgrading of historic landmarks such as the Bukit Timah Railway Station and the Railway Station Staff Quarters is set to be completed in 2022.",
+        {
+            "entities": [
+                [
+                    44,
+                    71,
+                    "LOC"
+                ],
+                [
+                    80,
+                    110,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "What happen to one at Jurong West near Pioneer Mall.",
+        {
+            "entities": [
+                [
+                    22,
+                    33,
+                    "LOC"
+                ],
+                [
+                    39,
+                    51,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "On 14 March 2012, platform screen doors became operational at all elevated stations on the North South line.",
+        {
+            "entities": [
+                [
+                    91,
+                    107,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The redeveloped industrial park will be renamed Defu Industrial Park.",
+        {
+            "entities": [
+                [
+                    48,
+                    68,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Beginning in July 2011, the stretch of the PIE between Clementi Avenue 6 and Adam Road was widened; one lane was added to both sides of the expressway.",
+        {
+            "entities": [
+                [
+                    43,
+                    46,
+                    "FAC"
+                ],
+                [
+                    55,
+                    72,
+                    "LOC"
+                ],
+                [
+                    77,
+                    86,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Similarly, Dr Elly Sabrina, a GP in Woodlands, said that detecting abnormalities with a patient she is already familiar with is much easier.",
+        {
+            "entities": [
+                [
+                    36,
+                    45,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The mainland of Singapore measures 50 kilometres (31 mi) from east to west and 27 kilometres (17 mi) from north to south with 193 kilometres (120 mi) of coastline.",
+        {
+            "entities": [
+                [
+                    16,
+                    25,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Goh Ze Lin, a 37-year-old Malaysian, was jailed for nine weeks for discharging a gun while sitting on a toilet bowl to relieve himself in HarbourFront Centre, where he was working as a Certis Cisco security officer at the OCBC branch there, according to CNA, Straits Times, and Yahoo News.",
+        {
+            "entities": [
+                [
+                    138,
+                    157,
+                    "LOC"
+                ],
+                [
+                    185,
+                    197,
+                    "ORG"
+                ],
+                [
+                    222,
+                    226,
+                    "ORG"
+                ],
+                [
+                    254,
+                    257,
+                    "ORG"
+                ],
+                [
+                    259,
+                    272,
+                    "ORG"
+                ],
+                [
+                    278,
+                    288,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The mall is directly linked to current East West Line and the future Cross Line Island Line, making it an interchange along 2 major MRT lines.",
+        {
+            "entities": [
+                [
+                    39,
+                    53,
+                    "FAC"
+                ],
+                [
+                    69,
+                    91,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Keretapi Tanah Melayu (Malayan Railways) operates an international train service to Woodlands Train Checkpoint.",
+        {
+            "entities": [
+                [
+                    0,
+                    21,
+                    "ORG"
+                ],
+                [
+                    23,
+                    39,
+                    "ORG"
+                ],
+                [
+                    84,
+                    110,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The West Arrival Node will include a breath-taking view of a waterfall set amidst a \"luxuriantly-landscaped\" cavern.",
+        {
+            "entities": [
+                [
+                    4,
+                    21,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Nevertheless, the LTA reversed its decision and made plans to install half-height platform screen doors in all elevated stations on 25 January 2008.",
+        {
+            "entities": [
+                [
+                    18,
+                    21,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "For the research, a Centre for Climate Research Singapore (CCRS) has been established, located at 36 Kim Chuan Road.",
+        {
+            "entities": [
+                [
+                    20,
+                    57,
+                    "ORG"
+                ],
+                [
+                    59,
+                    63,
+                    "ORG"
+                ],
+                [
+                    98,
+                    115,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Young Chin Peng, 62, Chiau Chee Meng, 53, and Adrian Chua Yong Han, 46, also chanted gang slogans and displayed gang hand signs at the procession along Havelock Road near the Tiong Bahru area.",
+        {
+            "entities": [
+                [
+                    152,
+                    165,
+                    "LOC"
+                ],
+                [
+                    175,
+                    186,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "A branch line from Hougang to Jalan Kayu was also proposed.",
+        {
+            "entities": [
+                [
+                    19,
+                    26,
+                    "LOC"
+                ],
+                [
+                    30,
+                    40,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "It is also the first medium capacity line in Singapore, with each Circle Line train, the C830 and C830C, having a three-car configuration.",
+        {
+            "entities": [
+                [
+                    66,
+                    77,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "They argued that the forest was a important ecosystem, green corridor and one of the few remaining forests in Singapore, using this incident to highlight their view that planning in Singapore should do more to protect and preserve existing forests and wildlife.",
+        {
+            "entities": [
+                [
+                    110,
+                    119,
+                    "LOC"
+                ],
+                [
+                    182,
+                    191,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The section between Adam Road and Jalan Anak Bukit was opened in October 1976 and construction of the eastern part of the PIE, between Jalan Eunos and Changi Airport, started in 1976.Work was started in November 1977 to expand Whitley Road to six lanes, along with the construction of a grade-separated interchange to link it with the PIE.",
+        {
+            "entities": [
+                [
+                    20,
+                    29,
+                    "LOC"
+                ],
+                [
+                    34,
+                    50,
+                    "LOC"
+                ],
+                [
+                    135,
+                    146,
+                    "LOC"
+                ],
+                [
+                    151,
+                    165,
+                    "LOC"
+                ],
+                [
+                    227,
+                    239,
+                    "LOC"
+                ],
+                [
+                    122,
+                    125,
+                    "FAC"
+                ],
+                [
+                    335,
+                    338,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "There are observatories (with huge telescopes) on Mainland Singapore despite the poor light pollution as well! See: Galaxy Community Centre (near admiralty mrt) and Science Centre.",
+        {
+            "entities": [
+                [
+                    59,
+                    68,
+                    "LOC"
+                ],
+                [
+                    116,
+                    139,
+                    "LOC"
+                ],
+                [
+                    146,
+                    159,
+                    "LOC"
+                ],
+                [
+                    165,
+                    179,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Surrounding landmarks include the religious sites of Buddha Tooth Relic Temple, Masjid Jamae (Chulia), Fairfield Methodist Church, the Sri Mariamman Temple and the Sri Layan Sithi Vinayagar Temple.",
+        {
+            "entities": [
+                [
+                    53,
+                    78,
+                    "LOC"
+                ],
+                [
+                    80,
+                    101,
+                    "LOC"
+                ],
+                [
+                    103,
+                    129,
+                    "LOC"
+                ],
+                [
+                    135,
+                    155,
+                    "LOC"
+                ],
+                [
+                    164,
+                    196,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "White Lexus evading paying carpark fee at the exit of Hougang Meadow HDB estate area.",
+        {
+            "entities": [
+                [
+                    54,
+                    68,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The subsystems consist of automatic train protection to govern train speed, NetTrac MT Automatic Train Supervision (ATS) to track and schedule trains and a Computer-based interlocking system that prevents incorrect signal and track points to be set.",
+        {
+            "entities": [
+                [
+                    76,
+                    83,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "Another bonus is that There's a lot of childcare centres in the area. The nearest ones include My First Skool, Kiddy Campus and PCF Sparkletots at Choa Chu Kang Street 62 - all within a three- to seven-minute walking distance.",
+        {
+            "entities": [
+                [
+                    95,
+                    109,
+                    "ORG"
+                ],
+                [
+                    111,
+                    123,
+                    "ORG"
+                ],
+                [
+                    128,
+                    143,
+                    "ORG"
+                ],
+                [
+                    147,
+                    170,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "It is the second MRT line to be operated by SBS Transit, after the North East Line.",
+        {
+            "entities": [
+                [
+                    17,
+                    20,
+                    "FAC"
+                ],
+                [
+                    67,
+                    82,
+                    "FAC"
+                ],
+                [
+                    44,
+                    55,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The MRTC, which approved the project in October, had proposed that the line be linked with Bishan Depot, which would maintain and service trains running on the future line.",
+        {
+            "entities": [
+                [
+                    4,
+                    8,
+                    "ORG"
+                ],
+                [
+                    91,
+                    103,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The lowest recorded temperature was 19.0 \u00b0C (66.2 \u00b0F) in 14 February 1989 at Paya Lebar.",
+        {
+            "entities": [
+                [
+                    77,
+                    87,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "They were first installed at Jurong East, Pasir Ris, and Yishun stations in 2009 as trial runs.",
+        {
+            "entities": [
+                [
+                    29,
+                    40,
+                    "LOC"
+                ],
+                [
+                    42,
+                    51,
+                    "LOC"
+                ],
+                [
+                    57,
+                    71,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "However, since the 1960s the government has constructed many new towns in other areas, so that today the island is nearly entirely built-up and urbanised, with only a few exceptions, such as the district of Lim Chu Kang or reclaimed land in the process of being developed.",
+        {
+            "entities": [
+                [
+                    207,
+                    219,
+                    "LOC"
+                ],
+                [
+                    29,
+                    39,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "There are also daily scheduled ferry services from the Marina South Pier to the Southern Islands such as Kusu Island, Lazarus Island & Saint John's Island and Sisters' Islands.",
+        {
+            "entities": [
+                [
+                    55,
+                    72,
+                    "LOC"
+                ],
+                [
+                    80,
+                    96,
+                    "LOC"
+                ],
+                [
+                    105,
+                    116,
+                    "LOC"
+                ],
+                [
+                    118,
+                    132,
+                    "LOC"
+                ],
+                [
+                    135,
+                    154,
+                    "LOC"
+                ],
+                [
+                    159,
+                    175,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The new configuration encompasses West Coast, Tengah and Choa Chu Kang and Jurong.",
+        {
+            "entities": [
+                [
+                    34,
+                    44,
+                    "LOC"
+                ],
+                [
+                    46,
+                    52,
+                    "LOC"
+                ],
+                [
+                    57,
+                    70,
+                    "LOC"
+                ],
+                [
+                    75,
+                    81,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Kallang Riverside Park will also be redeveloped into a waterfront park as part of the plan.",
+        {
+            "entities": [
+                [
+                    0,
+                    22,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Downtown line will be extended to the future Sungei Kadut MRT station.",
+        {
+            "entities": [
+                [
+                    4,
+                    17,
+                    "FAC"
+                ],
+                [
+                    49,
+                    73,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Anderson Serangoon Junior College, Eunoia Junior College and Victoria Junior College are among the government and government-aided Junior Colleges that will increase the number of DSA places for non-Integrated Programme students from 10 per cent to 20 per cent of the yearly cohorts. Anderson Serangoon Junior College is located at Yio Chu Kang, while Eunoia Junior College is co-located with Marymount Community Centre near the upcoming Teck Ghee MRT Station, while Victoria Junior College will be served by Marine Terrace station on the thomson-east coast line.",
+        {
+            "entities": [
+                [
+                    0,
+                    33,
+                    "ORG"
+                ],
+                [
+                    35,
+                    56,
+                    "ORG"
+                ],
+                [
+                    61,
+                    84,
+                    "ORG"
+                ],
+                [
+                    131,
+                    146,
+                    "FAC"
+                ],
+                [
+                    284,
+                    317,
+                    "LOC"
+                ],
+                [
+                    332,
+                    344,
+                    "LOC"
+                ],
+                [
+                    352,
+                    373,
+                    "LOC"
+                ],
+                [
+                    393,
+                    419,
+                    "LOC"
+                ],
+                [
+                    438,
+                    459,
+                    "LOC"
+                ],
+                [
+                    467,
+                    490,
+                    "LOC"
+                ],
+                [
+                    509,
+                    531,
+                    "LOC"
+                ],
+                [
+                    539,
+                    562,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Handmade Noodles With Fiery Chilli at Geylang Bahru",
+        {
+            "entities": [
+                [
+                    0,
+                    34,
+                    "ORG"
+                ],
+                [
+                    38,
+                    51,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Except for the partly at-grade Bishan MRT station (North South Line), the entirety of the MRT is either elevated or underground.",
+        {
+            "entities": [
+                [
+                    31,
+                    49,
+                    "LOC"
+                ],
+                [
+                    51,
+                    67,
+                    "FAC"
+                ],
+                [
+                    90,
+                    93,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The first ten eastbound trains reported braking problems, then the eleventh train from Jurong stopped at the Clementi station for two minutes longer than scheduled due to it using its emergency brakes to stop at the station at 7.50 am, before being hit by another eastbound train when it failed to stop in time.",
+        {
+            "entities": [
+                [
+                    87,
+                    93,
+                    "LOC"
+                ],
+                [
+                    109,
+                    125,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "In Jurong East, more than 11 first-time applicants will compete for each of the 240 four-room units.",
+        {
+            "entities": [
+                [
+                    3,
+                    14,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The development also consists of three conserved 100-year-old godowns/warehouses, that is the former site of Zouk nightclub, and a newly built four-storey block with 80 serviced apartments.",
+        {
+            "entities": [
+                [
+                    109,
+                    123,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The shop, located at 593 Havelock Road, provides an elevated shopping and dining experience as compared to your Korean mart.",
+        {
+            "entities": [
+                [
+                    21,
+                    38,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Two new stations are planned along the existing North South Line.",
+        {
+            "entities": [
+                [
+                    48,
+                    64,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The first section, from Bugis to Chinatown station, opened in December 2013, followed by the second section from Bukit Panjang to Rochor station opening in December 2015.",
+        {
+            "entities": [
+                [
+                    24,
+                    29,
+                    "LOC"
+                ],
+                [
+                    33,
+                    50,
+                    "LOC"
+                ],
+                [
+                    113,
+                    126,
+                    "LOC"
+                ],
+                [
+                    130,
+                    144,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The centre will be catered to a wide range of competitive sporting events and will be integrated with the Punggol Waterway and co-located with the existing SAFRA Punggol clubhouse.",
+        {
+            "entities": [
+                [
+                    106,
+                    122,
+                    "LOC"
+                ],
+                [
+                    156,
+                    169,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The hub will be located opposite Waterway Point, and adjacent to the upcoming Punggol Regional Sports Centre which will be linked via a pedestrian overhead bridge.",
+        {
+            "entities": [
+                [
+                    33,
+                    47,
+                    "LOC"
+                ],
+                [
+                    78,
+                    108,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "A new moving-block signalling system, supplied by Thales, replaced the ageing fixed-block signalling system on the North South line.",
+        {
+            "entities": [
+                [
+                    50,
+                    56,
+                    "ORG"
+                ],
+                [
+                    115,
+                    131,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Located in within the residential area of 1 Binjai Park, Beng's Bak Kut Teh is frequented by many regulars who come flocking for piping-hot bowls of peppery, Teochew-style bak kut teh.",
+        {
+            "entities": [
+                [
+                    42,
+                    55,
+                    "LOC"
+                ],
+                [
+                    57,
+                    75,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "As the station spans over Punggol Central at 320 metres (350 yards) to accommodate the bus stops, taxi stands and passenger drop-off points along that road, Punggol station is the longest station on the NEL.",
+        {
+            "entities": [
+                [
+                    26,
+                    41,
+                    "LOC"
+                ],
+                [
+                    157,
+                    172,
+                    "LOC"
+                ],
+                [
+                    203,
+                    206,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The waterfront site will offer visitors a clear view of the Singapore skyline.",
+        {
+            "entities": [
+                [
+                    60,
+                    69,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "After Kent Ridge station, the line curves eastwards, paralleling the West Coast Highway and then terminating at HarbourFront station, where it interchanges with the North East line.",
+        {
+            "entities": [
+                [
+                    6,
+                    24,
+                    "LOC"
+                ],
+                [
+                    69,
+                    87,
+                    "LOC"
+                ],
+                [
+                    112,
+                    124,
+                    "LOC"
+                ],
+                [
+                    165,
+                    180,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Although Singapore does not observe daylight saving time (DST), it follows the UTC+8 time zone, one hour ahead of the typical zone for its geographical location.",
+        {
+            "entities": [
+                [
+                    9,
+                    18,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Senior Care Centre will have a full-day care programme for seniors who require supervision while their caregivers are at work.",
+        {
+            "entities": [
+                [
+                    4,
+                    22,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "During the construction, a total of 19 new trains were purchased for almost S$259 million for the new MRT line, designed by German company Siemens Aktiengesellschaft, to complement the 66 first-generation C151 trains.",
+        {
+            "entities": [
+                [
+                    139,
+                    165,
+                    "ORG"
+                ],
+                [
+                    102,
+                    105,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Located in the Beach Road area, The S$2.4 billion Guoco Midtown will contain a 30-storey office block with flexible spaces, a 33-storey 219-unit residential block named Midtown Bay, and public spaces.",
+        {
+            "entities": [
+                [
+                    15,
+                    25,
+                    "LOC"
+                ],
+                [
+                    50,
+                    63,
+                    "LOC"
+                ],
+                [
+                    169,
+                    180,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "On 31 August 2011, the LTA announced completion of the installation of PSDs along the East West line, with Expo being the last station on the line to receive the PSDs.",
+        {
+            "entities": [
+                [
+                    23,
+                    26,
+                    "ORG"
+                ],
+                [
+                    86,
+                    100,
+                    "FAC"
+                ],
+                [
+                    107,
+                    111,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Since 2019, the North South line is fully equipped with Thales SelTrac Communications-based train control moving block signalling system with automatic train control under automatic train operation (ATO) GoA 3 (DTO).",
+        {
+            "entities": [
+                [
+                    16,
+                    32,
+                    "FAC"
+                ],
+                [
+                    56,
+                    62,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "In 2009, \"Best Transport Building\" was awarded to the designers at WOHA Architects at the World Architecture Festival for their design of Bras Basah station.",
+        {
+            "entities": [
+                [
+                    67,
+                    82,
+                    "ORG"
+                ],
+                [
+                    138,
+                    156,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "A designated area in Changi East adjacent to Singapore Changi Airport, Changi City is planned to be a lifestyle business cluster made up of the existing Singapore University of Technology and Design (SUTD) and Changi Business Park, as well as the future Changi East Urban District.",
+        {
+            "entities": [
+                [
+                    21,
+                    32,
+                    "LOC"
+                ],
+                [
+                    45,
+                    69,
+                    "LOC"
+                ],
+                [
+                    71,
+                    82,
+                    "LOC"
+                ],
+                [
+                    153,
+                    198,
+                    "LOC"
+                ],
+                [
+                    200,
+                    204,
+                    "LOC"
+                ],
+                [
+                    210,
+                    230,
+                    "LOC"
+                ],
+                [
+                    254,
+                    280,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Changi East Depot will serve the future Cross Island Line, and the depot is to be placed at the eastern end of the line.",
+        {
+            "entities": [
+                [
+                    4,
+                    21,
+                    "LOC"
+                ],
+                [
+                    44,
+                    61,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The resident had called the Housing and Development Board more than five times about the matter.",
+        {
+            "entities": [
+                [
+                    28,
+                    57,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "Location: Sembawang MRT Moji Bakery. Buy take away Milo Ice at 8:15am. There was baby cockroach in my drink. When saw make me run in toilet vomit. Staff never apologise!",
+        {
+            "entities": [
+                [
+                    10,
+                    23,
+                    "LOC"
+                ],
+                [
+                    24,
+                    35,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The sixth Mass Rapid Transit and the fourth fully automatic and driverless system line in Singapore that is 43 km (27 mi) long.",
+        {
+            "entities": [
+                [
+                    10,
+                    28,
+                    "FAC"
+                ],
+                [
+                    90,
+                    99,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The 2,000ha area - twice the size of Punggol - includes prime land that will be freed up when port operator PSA's terminals at Tanjong Pagar, Keppel and Brani move to Tuas by 2027, as well as Pasir Panjang terminal by 2040.",
+        {
+            "entities": [
+                [
+                    37,
+                    44,
+                    "LOC"
+                ],
+                [
+                    108,
+                    111,
+                    "ORG"
+                ],
+                [
+                    127,
+                    140,
+                    "LOC"
+                ],
+                [
+                    142,
+                    148,
+                    "LOC"
+                ],
+                [
+                    153,
+                    158,
+                    "LOC"
+                ],
+                [
+                    167,
+                    171,
+                    "LOC"
+                ],
+                [
+                    192,
+                    205,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Before deciding on the route taken to cross the Singapore River, 20 other tunnel routes were considered by LTA engineers but were deemed too unsafe or too damaging to the environment or both.",
+        {
+            "entities": [
+                [
+                    48,
+                    63,
+                    "LOC"
+                ],
+                [
+                    107,
+                    110,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "Changi Airport station, the easternmost station on the MRT network, has the widest platform in any underground MRT station in Singapore.",
+        {
+            "entities": [
+                [
+                    0,
+                    22,
+                    "LOC"
+                ],
+                [
+                    55,
+                    58,
+                    "FAC"
+                ],
+                [
+                    111,
+                    114,
+                    "FAC"
+                ],
+                [
+                    126,
+                    135,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "This pedestrian underpass opened a few months ago and provides a convenient and comfortable connection between City Hall MRT and Funan.",
+        {
+            "entities": [
+                [
+                    111,
+                    124,
+                    "LOC"
+                ],
+                [
+                    129,
+                    134,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "On 5 August 1993, before opening, a maintenance vehicle spilt oil on the tracks between Clementi and Jurong East. This incident was known as the Clementi train collision.",
+        {
+            "entities": [
+                [
+                    88,
+                    96,
+                    "LOC"
+                ],
+                [
+                    101,
+                    112,
+                    "LOC"
+                ],
+                [
+                    145,
+                    153,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The clubhouse will be located within a five-minute walk from Choa Chu Kang MRT station and also boast facilities including a partially sheltered running track and indoor playground.",
+        {
+            "entities": [
+                [
+                    61,
+                    86,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "This partnership, besides providing feedback for conservation proposals, was intended to generate new proposals regarding building heritage in Singapore.",
+        {
+            "entities": [
+                [
+                    143,
+                    152,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Announced on 8 December 2019, Serangoon Polyclinic is an upcoming polyclinic located opposite NEX Shopping Mall in Serangoon.",
+        {
+            "entities": [
+                [
+                    30,
+                    50,
+                    "LOC"
+                ],
+                [
+                    94,
+                    97,
+                    "LOC"
+                ],
+                [
+                    115,
+                    124,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The line, then named the Marina Line, was first announced on 16 October 1997.",
+        {
+            "entities": [
+                [
+                    25,
+                    36,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Set to open in 2022, the resort will be Singapore's first villa-only hotel.",
+        {
+            "entities": [
+                [
+                    40,
+                    49,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "In conjunction with the station's opening, the surrounding shopping complexes People's Park Complex and the OG Shopping Centre underwent renovations and redevelopment.",
+        {
+            "entities": [
+                [
+                    78,
+                    99,
+                    "LOC"
+                ],
+                [
+                    108,
+                    126,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Tragic - old mahogany tree at Ang Mo Kio Avenue 6 torn down this morning to make way for road-widening.",
+        {
+            "entities": [
+                [
+                    30,
+                    49,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Employer forces maid to step out onto window ledge to clean window exteriors at 489B Tampines, very dangerous. Employers please do not get your helper to do this!",
+        {
+            "entities": [
+                [
+                    80,
+                    93,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Having the SIT campus integrated with the JTC business park will support an ecosystem for digital and technology organisations in the district, such as doing trials on new concepts before scaling them up on a national level.",
+        {
+            "entities": [
+                [
+                    11,
+                    14,
+                    "LOC"
+                ],
+                [
+                    42,
+                    45,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "Residents at Bartley Beacon need not fret; being right next to Bartley MRT puts them within ten minutes of the bigger and better NEX mall at Serangoon.",
+        {
+            "entities": [
+                [
+                    13,
+                    27,
+                    "LOC"
+                ],
+                [
+                    129,
+                    132,
+                    "LOC"
+                ],
+                [
+                    141,
+                    150,
+                    "LOC"
+                ],
+                [
+                    63,
+                    74,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Yesterday, Singapore's popular Mandarin Newspaper reported a news article about a particular Pandan Garden 4-room HDB flat being rented out illegally to 24 tenants!",
+        {
+            "entities": [
+                [
+                    11,
+                    20,
+                    "LOC"
+                ],
+                [
+                    93,
+                    106,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "For the next century, until 1958, there was little involvement by the colonial authorities in the planning of Singapore, and while the authorities occasionally modified Raffles' plan, they did not make any official plans on a comprehensive scale.",
+        {
+            "entities": [
+                [
+                    110,
+                    119,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Tengah and Yishun are great choices if you're looking for a home that caters to your physical, mental, and social wellness.",
+        {
+            "entities": [
+                [
+                    0,
+                    6,
+                    "LOC"
+                ],
+                [
+                    11,
+                    17,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "An exception to this was Orchard, chosen by its designers to be a \"showpiece\" of the system and built initially with a domed roof.",
+        {
+            "entities": [
+                [
+                    25,
+                    32,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The area in front of Hong Lim Complex and Chinatown Point had been closed off to build the support wall for the station and tunnels.",
+        {
+            "entities": [
+                [
+                    21,
+                    37,
+                    "LOC"
+                ],
+                [
+                    42,
+                    57,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The long-term future of Mandai Executive Golf Course - one of three public golf courses here - is up in the air, with plans for the site under review.",
+        {
+            "entities": [
+                [
+                    24,
+                    52,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "This new eco-playground is located at the Discover Tanjong Pagar Community Green (in front of Guoco Tower and Orchid Hotel), and is the fruit of a partnership between Discover Tanjong Pagar and furniture company Roger&Sons.",
+        {
+            "entities": [
+                [
+                    42,
+                    80,
+                    "LOC"
+                ],
+                [
+                    94,
+                    105,
+                    "LOC"
+                ],
+                [
+                    110,
+                    122,
+                    "LOC"
+                ],
+                [
+                    167,
+                    189,
+                    "ORG"
+                ],
+                [
+                    212,
+                    222,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "Parts of the road are planned to be converted to pedestrian use to connect existing green spaces at Istana Park and Dhoby Ghaut Green, while the current open space at Plaza Singapura will be transformed into a large garden with playgrounds and sheltered spaces for events.",
+        {
+            "entities": [
+                [
+                    100,
+                    111,
+                    "LOC"
+                ],
+                [
+                    115,
+                    133,
+                    "LOC"
+                ],
+                [
+                    167,
+                    182,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The station was expanded to handle increased passenger traffic when the CCL station opens.",
+        {
+            "entities": [
+                [
+                    72,
+                    75,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The 6-kilometre (3.7 mi) line extension to Pasir Ris station was opened ahead of schedule on 16 December 1989 with a sneak preview beforehand.",
+        {
+            "entities": [
+                [
+                    43,
+                    60,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The East Arrival Node will also house a basement transportation hub, creating a vehicle-free environment at surface level for public performances and events.",
+        {
+            "entities": [
+                [
+                    4,
+                    21,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "A train fault caused the first train heading in the direction of Tuas Link to stall at the station.",
+        {
+            "entities": [
+                [
+                    65,
+                    74,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Bus transport forms a significant part of public transport in Singapore, with over 4.0 million rides taken per day on average as of 2019.",
+        {
+            "entities": [
+                [
+                    62,
+                    71,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "BMW driver left car with engine running and parked at a sheltered alighting point, causing obstructon to other road users beside Fairprice at Blk 192 Toa Payoh Lorong 4.",
+        {
+            "entities": [
+                [
+                    142,
+                    168,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Singapore remains highly vulnerable to the impact of climate change; in particular, the rising sea levels may pose a major threat to the very survival of the country in the long-term perspective.",
+        {
+            "entities": [
+                [
+                    0,
+                    9,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "NSMen may take their yearly IPPTs at Fitness Conditioning Centres located at 4 army camps - Khatib Camp, Kranji Camp II, Maju Camp and Bedok Camp.",
+        {
+            "entities": [
+                [
+                    37,
+                    65,
+                    "FAC"
+                ],
+                [
+                    92,
+                    103,
+                    "LOC"
+                ],
+                [
+                    105,
+                    119,
+                    "LOC"
+                ],
+                [
+                    121,
+                    130,
+                    "LOC"
+                ],
+                [
+                    135,
+                    145,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The locations of both Hougang BTO projects are also key draws, said Ms Christine Sun, senior vice-president of research and analytics at OrangeTee & Tie.",
+        {
+            "entities": [
+                [
+                    22,
+                    29,
+                    "LOC"
+                ],
+                [
+                    137,
+                    152,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "JTC will be refurbishing its four existing wafer fabrication parks in Pasir Ris, Tampines, Woodlands, and North Coast.",
+        {
+            "entities": [
+                [
+                    0,
+                    3,
+                    "ORG"
+                ],
+                [
+                    70,
+                    79,
+                    "LOC"
+                ],
+                [
+                    81,
+                    89,
+                    "LOC"
+                ],
+                [
+                    91,
+                    100,
+                    "LOC"
+                ],
+                [
+                    106,
+                    117,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "1.04 billion gross tons were handled in 2004, crossing the one billion mark for the first time in Singapore's maritime history.",
+        {
+            "entities": [
+                [
+                    98,
+                    107,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Currently closed for renovation works, the S$90 million revamp of the Singapore Arts Museum (SAM) will be completed in 2026.",
+        {
+            "entities": [
+                [
+                    70,
+                    91,
+                    "LOC"
+                ],
+                [
+                    93,
+                    96,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Toyota car failed to signal when changing lane and turning left along telok blangah road.",
+        {
+            "entities": [
+                [
+                    70,
+                    88,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The latest plan, the Land Transport Master Plan 2040, was announced on 25 May 2019, and provides for line extensions to the Downtown and Thomson-East Coast lines, a new MRT line under study, and 2 new stations on the North South line.",
+        {
+            "entities": [
+                [
+                    124,
+                    132,
+                    "FAC"
+                ],
+                [
+                    137,
+                    160,
+                    "FAC"
+                ],
+                [
+                    169,
+                    172,
+                    "FAC"
+                ],
+                [
+                    217,
+                    233,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Between the Potong Pasir and Kovan stations, the line parallels Upper Serangoon Road before curving north to Hougang station.",
+        {
+            "entities": [
+                [
+                    12,
+                    24,
+                    "LOC"
+                ],
+                [
+                    29,
+                    42,
+                    "LOC"
+                ],
+                [
+                    64,
+                    84,
+                    "LOC"
+                ],
+                [
+                    109,
+                    124,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Earlier plans had long been made for a new line branching off from the existing East West line at Tanah Merah, with some conceptual plans showing a tentative route alignment up to the airport along Airport Boulevard, continuing beyond the airport to Changi Point, before turning southwest back towards the city along the eastern coasts.",
+        {
+            "entities": [
+                [
+                    80,
+                    94,
+                    "FAC"
+                ],
+                [
+                    98,
+                    109,
+                    "LOC"
+                ],
+                [
+                    198,
+                    215,
+                    "LOC"
+                ],
+                [
+                    250,
+                    262,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The S$30 million Singtel Waterfront Theatre at the Esplanade is scheduled to be completed and opened in the second half of 2021.",
+        {
+            "entities": [
+                [
+                    17,
+                    43,
+                    "LOC"
+                ],
+                [
+                    51,
+                    60,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Key developments in the city core include Shenton Way and Orchard Road.",
+        {
+            "entities": [
+                [
+                    42,
+                    53,
+                    "LOC"
+                ],
+                [
+                    58,
+                    70,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "First announced on 30 March 2017 by the Immigration and Checkpoints Authority (ICA), the current Woodlands Checkpoint will be expanded with the addition of a new wing to be built at the site of the Old Woodlands Town Centre, adjacent to the checkpoint.",
+        {
+            "entities": [
+                [
+                    40,
+                    77,
+                    "ORG"
+                ],
+                [
+                    79,
+                    82,
+                    "ORG"
+                ],
+                [
+                    97,
+                    117,
+                    "LOC"
+                ],
+                [
+                    198,
+                    223,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "A town committee was formed as a result, to ensure that Singapore developed and grew in an orderly manner, as part of Raffles' vision of Singapore as a commercial and administrative centre.",
+        {
+            "entities": [
+                [
+                    56,
+                    65,
+                    "LOC"
+                ],
+                [
+                    137,
+                    146,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "On 23 February 2022, Singtel announced an over S$2 billion plan to redevelop Comcentre from 2024 into a 110,000 sq m building equipped with the latest digital technologies and sustainable features, as well as being well integrated into the surroundings with an underground connection to Somerset MRT station.",
+        {
+            "entities": [
+                [
+                    21,
+                    28,
+                    "ORG"
+                ],
+                [
+                    77,
+                    86,
+                    "LOC"
+                ],
+                [
+                    287,
+                    307,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Beyond basic standard of living and amenity, the 1965 Plan re-oriented Singapore from a mere commercial outlet to a centre of manufacturing export for Malaysia's industries and a centre for industrial expansion.",
+        {
+            "entities": [
+                [
+                    71,
+                    80,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The development will be integrated with the adjacent larger Guoco Midtown and bring about greater connectivity in the area.",
+        {
+            "entities": [
+                [
+                    60,
+                    73,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "This includes four additional new rail lines, the Cross Island Line, Jurong Regional Line and Thomson East-Coast Line, which will be complemented by Integrated Transport Hubs which place rail and bus services in close proximity to MRT stations.",
+        {
+            "entities": [
+                [
+                    50,
+                    67,
+                    "FAC"
+                ],
+                [
+                    69,
+                    89,
+                    "FAC"
+                ],
+                [
+                    94,
+                    117,
+                    "FAC"
+                ],
+                [
+                    231,
+                    234,
+                    "FAC"
+                ],
+                [
+                    149,
+                    174,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "To connect this section to the rest of the PIE, a $15.2 million viaduct over Jalan Anak Bukit and Upper Bukit Timah Road was built.",
+        {
+            "entities": [
+                [
+                    43,
+                    46,
+                    "FAC"
+                ],
+                [
+                    77,
+                    93,
+                    "LOC"
+                ],
+                [
+                    98,
+                    120,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Singapore gained self governance in 1958 and was part of the Federation of Malaya for two years.",
+        {
+            "entities": [
+                [
+                    0,
+                    9,
+                    "LOC"
+                ],
+                [
+                    61,
+                    81,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Between Khatib and Yio Chu Kang stations parallel to Lentor Avenue, the line continues at surface level; this section is the longest distance between any two MRT stations in Singapore.",
+        {
+            "entities": [
+                [
+                    8,
+                    14,
+                    "LOC"
+                ],
+                [
+                    19,
+                    40,
+                    "LOC"
+                ],
+                [
+                    53,
+                    66,
+                    "LOC"
+                ],
+                [
+                    158,
+                    161,
+                    "FAC"
+                ],
+                [
+                    174,
+                    183,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Besides escalators, Dhoby Ghaut station is the first MRT station to feature a set of 55 metres (180 ft) travellators that links between the NEL and NSL platforms.",
+        {
+            "entities": [
+                [
+                    20,
+                    39,
+                    "LOC"
+                ],
+                [
+                    53,
+                    56,
+                    "FAC"
+                ],
+                [
+                    140,
+                    143,
+                    "FAC"
+                ],
+                [
+                    148,
+                    151,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "With the official opening of the Woodlands extension on 10 February 1996 by then Prime Minister Goh Chok Tong, the Branch line was incorporated into the North South line.",
+        {
+            "entities": [
+                [
+                    33,
+                    52,
+                    "FAC"
+                ],
+                [
+                    115,
+                    126,
+                    "FAC"
+                ],
+                [
+                    153,
+                    169,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "By the end of 2021, much of the Rail Corridor will be open, with Kranji MRT station connected to Spooner Road.",
+        {
+            "entities": [
+                [
+                    32,
+                    45,
+                    "FAC"
+                ],
+                [
+                    65,
+                    83,
+                    "LOC"
+                ],
+                [
+                    97,
+                    109,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Announced on 16 October 2017, Holland Plain is an upcoming 34-hectare precinct which will comprise approximately 2,500 private residential units.",
+        {
+            "entities": [
+                [
+                    30,
+                    43,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "On 7 June 2017, it was announced by then-Second Minister for Transport Ng Chee Meng that the North-East Line extension was to open in 2023, a few years ahead of the expected opening date of 2030.",
+        {
+            "entities": [
+                [
+                    93,
+                    118,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Singapore's climate is classified as tropical rainforest climate (Koppen climate classification Af), with no true distinct seasons.",
+        {
+            "entities": [
+                [
+                    0,
+                    9,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "It will be a major waterfront district with recreational and tourism facilities/amenities while offering seamless \"fly-ferry\" connections between Changi Airport Terminal 5 and Tanah Merah Ferry Terminal due to their close proximity to one another.",
+        {
+            "entities": [
+                [
+                    146,
+                    171,
+                    "LOC"
+                ],
+                [
+                    176,
+                    202,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Yishun was one of the first towns to undergo the Remaking Our Heartlands (ROH) programme, which is a comprehensive town-wide rejuvenation initiative.",
+        {
+            "entities": [
+                [
+                    0,
+                    6,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Person at Blk 297 Choa Chu Kang Avenue 2 on his video / radio so loud from 9pm to 11pm.",
+        {
+            "entities": [
+                [
+                    10,
+                    40,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Singapore is separated from Indonesia by the Singapore Strait and from Malaysia by the Straits of Johor.",
+        {
+            "entities": [
+                [
+                    0,
+                    9,
+                    "LOC"
+                ],
+                [
+                    28,
+                    37,
+                    "LOC"
+                ],
+                [
+                    45,
+                    61,
+                    "LOC"
+                ],
+                [
+                    71,
+                    79,
+                    "LOC"
+                ],
+                [
+                    87,
+                    103,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "From Promenade station, the line goes northwards and towards the east, passing beneath the Kallang Basin.",
+        {
+            "entities": [
+                [
+                    5,
+                    22,
+                    "LOC"
+                ],
+                [
+                    91,
+                    104,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The long-term plan, formerly called the Concept Plan, plots out Singapore's developmental direction over at least five decades.",
+        {
+            "entities": [
+                [
+                    64,
+                    73,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Since 1 July 2011, Woodlands Train Checkpoint serves as the southern terminus of the KTM rail network.",
+        {
+            "entities": [
+                [
+                    19,
+                    45,
+                    "LOC"
+                ],
+                [
+                    85,
+                    88,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Founders' Memorial will be served by the future Founders' Memorial MRT station on the Thomson-East Coast line, which will be opened in tandem with the development.",
+        {
+            "entities": [
+                [
+                    4,
+                    22,
+                    "LOC"
+                ],
+                [
+                    52,
+                    82,
+                    "LOC"
+                ],
+                [
+                    90,
+                    113,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Bukit Canberra will be the second such community hub in Singapore, after Our Tampines Hub in Tampines.",
+        {
+            "entities": [
+                [
+                    0,
+                    14,
+                    "LOC"
+                ],
+                [
+                    73,
+                    89,
+                    "LOC"
+                ],
+                [
+                    56,
+                    65,
+                    "LOC"
+                ],
+                [
+                    93,
+                    101,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Currently closed for redevelopment works, the Singapore Philatelic Museum will become a dedicated children's museum. The revamped Singapore Philatelic Museum will encourage visitors to explore and learn through artefacts, hands-on and immersive displays, personal stories, and role-playing.",
+        {
+            "entities": [
+                [
+                    46,
+                    73,
+                    "LOC"
+                ],
+                [
+                    130,
+                    157,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The shifting of the Nicoll Highway station also meant it can no longer serve as a terminus for the Bukit Timah Line, partially influencing the creation of the current Downtown Line.",
+        {
+            "entities": [
+                [
+                    20,
+                    42,
+                    "LOC"
+                ],
+                [
+                    99,
+                    115,
+                    "FAC"
+                ],
+                [
+                    167,
+                    180,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The proposed line runs from the Woodlands planning area to the Greater Southern Waterfront, passing through areas such as Sembawang, Sengkang, Serangoon North, Whampoa and Kallang.",
+        {
+            "entities": [
+                [
+                    32,
+                    41,
+                    "LOC"
+                ],
+                [
+                    63,
+                    90,
+                    "LOC"
+                ],
+                [
+                    122,
+                    131,
+                    "LOC"
+                ],
+                [
+                    133,
+                    141,
+                    "LOC"
+                ],
+                [
+                    143,
+                    158,
+                    "LOC"
+                ],
+                [
+                    160,
+                    167,
+                    "LOC"
+                ],
+                [
+                    172,
+                    179,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The integrated development, consisting of a 10-storey residential block and a 6-storey commercial block, modeled after the award-winning Kampung Admiralty, will replace the existing hardcourt at Yew Tee Close next to Yew Tee MRT station.",
+        {
+            "entities": [
+                [
+                    137,
+                    154,
+                    "LOC"
+                ],
+                [
+                    195,
+                    208,
+                    "LOC"
+                ],
+                [
+                    217,
+                    236,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Others have also criticised the facade of high public-housing ownership, when in reality, due to the Land Acquisition Act which allows the Government to own most of Singapore's underlying land, 80% of HDB residents only have 99-year leases on their flats, which depreciates in value as the 99-year term approaches.",
+        {
+            "entities": [
+                [
+                    165,
+                    174,
+                    "LOC"
+                ],
+                [
+                    139,
+                    149,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "Resorts World Sentosa will have two new attractions, Minion Park and Super Nintendo World, at Universal Studios Singapore.",
+        {
+            "entities": [
+                [
+                    0,
+                    21,
+                    "LOC"
+                ],
+                [
+                    53,
+                    64,
+                    "LOC"
+                ],
+                [
+                    69,
+                    89,
+                    "LOC"
+                ],
+                [
+                    94,
+                    121,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "A suitable location is still being worked out with the National Trades Union Congress.",
+        {
+            "entities": [
+                [
+                    55,
+                    85,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The work was divided into three phases: Phase 1 (Bugis - Tanah Merah), Phase 2 (Joo Koon - Jurong East, Tanah Merah - Pasir Ris) and Phase 3 (Jurong East - Outram Park).",
+        {
+            "entities": [
+                [
+                    49,
+                    54,
+                    "LOC"
+                ],
+                [
+                    57,
+                    68,
+                    "LOC"
+                ],
+                [
+                    80,
+                    88,
+                    "LOC"
+                ],
+                [
+                    91,
+                    102,
+                    "LOC"
+                ],
+                [
+                    104,
+                    115,
+                    "LOC"
+                ],
+                [
+                    118,
+                    127,
+                    "LOC"
+                ],
+                [
+                    142,
+                    153,
+                    "LOC"
+                ],
+                [
+                    156,
+                    167,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Pan Island Expressway (PIE) is the oldest and longest expressway in Singapore.",
+        {
+            "entities": [
+                [
+                    4,
+                    25,
+                    "FAC"
+                ],
+                [
+                    27,
+                    30,
+                    "FAC"
+                ],
+                [
+                    72,
+                    81,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Benaan Kapal Green, an active community park space, will be introduced along the waterfront and includes park connectors, running trails, and play areas for the public.",
+        {
+            "entities": [
+                [
+                    0,
+                    18,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "It would be very heartwarming if the specimen shown may either be a cutting or the offspring of the same plant we brought to Botanic Gardens all those years back before this plant was readily available to the public.",
+        {
+            "entities": [
+                [
+                    125,
+                    140,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The current Master Plan, released in 2019, focuses on the themes of liveable and inclusive communities, sustainability, sustainable mobility, conservation of historic areas and Singapore as an international gateway.",
+        {
+            "entities": [
+                [
+                    177,
+                    186,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Wish the same could be done for Liang Seah Street, Hamilton road, or Mosque street. Better still, close one or two roads in Little India or Arab street to become a food street.",
+        {
+            "entities": [
+                [
+                    32,
+                    49,
+                    "LOC"
+                ],
+                [
+                    51,
+                    64,
+                    "LOC"
+                ],
+                [
+                    69,
+                    82,
+                    "LOC"
+                ],
+                [
+                    124,
+                    136,
+                    "LOC"
+                ],
+                [
+                    140,
+                    151,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Additionally, a one-stop centre to access government agency services, first pioneered at Our Tampines Hub, will be part of the hub by mid-next year.",
+        {
+            "entities": [
+                [
+                    89,
+                    105,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Roadside parking spaces in Seng Poh Road and Lim Liak Street will be converted into wider footpaths and community spaces, Senior Minister of State for Transport Amy Khor said on Wednesday (March 9).",
+        {
+            "entities": [
+                [
+                    27,
+                    40,
+                    "LOC"
+                ],
+                [
+                    45,
+                    60,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The 4 km extension will run between Marina Bay and HarbourFront.",
+        {
+            "entities": [
+                [
+                    36,
+                    46,
+                    "LOC"
+                ],
+                [
+                    51,
+                    63,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Resale prices of HDB flats at CityVue@Henderson, which is about 800m from the Alexandra Road site, are between S$620,000 and S$1.26 million.",
+        {
+            "entities": [
+                [
+                    30,
+                    47,
+                    "LOC"
+                ],
+                [
+                    78,
+                    92,
+                    "LOC"
+                ],
+                [
+                    17,
+                    20,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "Singapore's first garden-in-a-hotel, PARKROYAL COLLECTION Marina Bay, has partnered exclusively with Club Med to launch the 'Body and Soul' wellness staycation package.",
+        {
+            "entities": [
+                [
+                    37,
+                    68,
+                    "LOC"
+                ],
+                [
+                    101,
+                    109,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The 21 third-generation C751B trains was introduced during the Changi Airport extension to complement the existing 66 first-generation C151 trains and 19 second-generation C651 trains.",
+        {
+            "entities": [
+                [
+                    63,
+                    87,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "In January 2011, The Straits Times reported that preparations for the station's opening had been ongoing since the second half of 2010; the newspaper speculated that the station would open in mid-2011 to serve new developments in the area.",
+        {
+            "entities": [
+                [
+                    17,
+                    34,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "I wished to compliment a staff from Tampines Mart 7-11 by the name of Cherie.",
+        {
+            "entities": [
+                [
+                    36,
+                    49,
+                    "LOC"
+                ],
+                [
+                    50,
+                    54,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The 50ha digital district will house key industries of the digital economy, such as cyber-security and digital technology firms, and incorporate a JTC Corporation business park and the Singapore Institute of Technology's new campus.",
+        {
+            "entities": [
+                [
+                    147,
+                    162,
+                    "ORG"
+                ],
+                [
+                    185,
+                    218,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The area will comprise approximately 4,000 private residential units, primarily served by Lavender MRT station, Kallang MRT station, and Bendemeer MRT station.",
+        {
+            "entities": [
+                [
+                    90,
+                    110,
+                    "LOC"
+                ],
+                [
+                    112,
+                    131,
+                    "LOC"
+                ],
+                [
+                    137,
+                    158,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Sedimentary rocks are found on the western part of Singapore and is mainly made of sandstone and mudstones.",
+        {
+            "entities": [
+                [
+                    51,
+                    60,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The line begins above ground at Jurong East station from where it continues north on a set of elevated viaducts, with the exception of a short tunnel between the Bukit Batok and Bukit Gombak stations, and a surface section of track between the Bukit Gombak and Choa Chu Kang stations.",
+        {
+            "entities": [
+                [
+                    32,
+                    51,
+                    "LOC"
+                ],
+                [
+                    162,
+                    173,
+                    "LOC"
+                ],
+                [
+                    178,
+                    198,
+                    "LOC"
+                ],
+                [
+                    244,
+                    256,
+                    "LOC"
+                ],
+                [
+                    261,
+                    282,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Exit D and Exit F of Dhoby Ghaut Station is directly connected to Plaza Singapura shopping mall.",
+        {
+            "entities": [
+                [
+                    0,
+                    6,
+                    "FAC"
+                ],
+                [
+                    11,
+                    17,
+                    "FAC"
+                ],
+                [
+                    21,
+                    40,
+                    "LOC"
+                ],
+                [
+                    66,
+                    81,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Currently under construction at a site next to the Tuas Water Reclamation Plant in Tuas View Basin, Tuas Nexus is an integrated waste management facility.",
+        {
+            "entities": [
+                [
+                    51,
+                    79,
+                    "LOC"
+                ],
+                [
+                    83,
+                    98,
+                    "LOC"
+                ],
+                [
+                    100,
+                    110,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Superb recreational options nearby such as Bishan Swimming Complex, Bishan Stadium, Bishan Sports Hall, Bishan Community Club, Bishan-Ang Mo Kio Park, and the Kallang Park Connector.",
+        {
+            "entities": [
+                [
+                    43,
+                    66,
+                    "LOC"
+                ],
+                [
+                    68,
+                    82,
+                    "LOC"
+                ],
+                [
+                    84,
+                    102,
+                    "LOC"
+                ],
+                [
+                    104,
+                    125,
+                    "LOC"
+                ],
+                [
+                    127,
+                    149,
+                    "LOC"
+                ],
+                [
+                    159,
+                    181,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The viaduct is integrated with part of a 4.8-kilometre-long (3.0 mi) road viaduct along Pioneer Road, which will increase the road capacity to cope with anticipated increase in traffic.",
+        {
+            "entities": [
+                [
+                    88,
+                    100,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The buildings in the National University of Singapore campus at Kent Ridge are all linear to prevent the incidental formation of \"large quadrangles\" where students could gather/congregate (unlike the same quads found in the Bukit Timah campus). The building of UTown and its large green space in 2011 would appear to break from this convention.",
+        {
+            "entities": [
+                [
+                    21,
+                    53,
+                    "LOC"
+                ],
+                [
+                    64,
+                    74,
+                    "LOC"
+                ],
+                [
+                    224,
+                    235,
+                    "LOC"
+                ],
+                [
+                    261,
+                    266,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "An elevated walkway from Beauty World to the quarry will be constructed for visitors to access the quarry.",
+        {
+            "entities": [
+                [
+                    25,
+                    37,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The nature park covers an area of more than 400 hectares and consists of the existing Sungei Buloh Wetland Reserve and Kranji Marshes, the upcoming Mandai Mangrove and Mudflat and Lim Chu Kang Nature Park, and other smaller nature areas.",
+        {
+            "entities": [
+                [
+                    86,
+                    114,
+                    "LOC"
+                ],
+                [
+                    119,
+                    133,
+                    "LOC"
+                ],
+                [
+                    148,
+                    175,
+                    "LOC"
+                ],
+                [
+                    180,
+                    204,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Aside from a market village and a foodcourt facing the waterfront, 1.7 hectares of an existing forest along Punggol Road will be conserved to create a forest courtyard, giving the campus a distinctive 'campus-in-a-park' identity.",
+        {
+            "entities": [
+                [
+                    108,
+                    120,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Unveiled on 5 February 2016, the 43-hectare Singapore General Hospital (SGH) Campus at Outram will be redeveloped and expanded over the next two decades.",
+        {
+            "entities": [
+                [
+                    44,
+                    70,
+                    "LOC"
+                ],
+                [
+                    72,
+                    75,
+                    "LOC"
+                ],
+                [
+                    87,
+                    93,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "DepotsSMRT Corporation has six train depots: Bishan Depot is the central maintenance depot for the North South Line with train overhaul facilities, while Changi Depot and Ulu Pandan Depot inspect and house trains overnight.",
+        {
+            "entities": [
+                [
+                    6,
+                    22,
+                    "ORG"
+                ],
+                [
+                    45,
+                    57,
+                    "LOC"
+                ],
+                [
+                    98,
+                    115,
+                    "FAC"
+                ],
+                [
+                    154,
+                    166,
+                    "LOC"
+                ],
+                [
+                    171,
+                    187,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The total travel time between the NEL's termini at harbourfront and punggol is 32 minutes.",
+        {
+            "entities": [
+                [
+                    51,
+                    63,
+                    "LOC"
+                ],
+                [
+                    68,
+                    75,
+                    "LOC"
+                ],
+                [
+                    34,
+                    37,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Future PlansIn the Land Transport Master Plan 2040 (LTMP2040), two new stations are projected to be built along the existing North South Line.",
+        {
+            "entities": [
+                [
+                    125,
+                    141,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Latest sightings of wild boar roaming around Blk 482 Segar Road HDB estate area.",
+        {
+            "entities": [
+                [
+                    45,
+                    63,
+                    "LOC"
+                ],
+                [
+                    64,
+                    67,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "used to operate the branch sector of Tanah Merah to Changi Airport as a through service from Boon Lay from 18 November 2001 until 22 July 2003, when it was replaced with a shuttle service.",
+        {
+            "entities": [
+                [
+                    37,
+                    48,
+                    "LOC"
+                ],
+                [
+                    52,
+                    66,
+                    "LOC"
+                ],
+                [
+                    93,
+                    101,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Green infrastructure would consist of green buildings which conserve energy and have better life cycles, green mobility such as cycling, walking infrastructure and green habits, which consist of making recycling and reducing waste part of Singaporean's daily consciousness.",
+        {
+            "entities": [
+                [
+                    239,
+                    250,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "It will transport approximately 10,000 passengers per hour each way to ease traffic on the already-congested Causeway.",
+        {
+            "entities": [
+                [
+                    109,
+                    117,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Line disruptionsOn 20 September 2011, a power fault disrupted train services at all 16 stations on the Circle Line.",
+        {
+            "entities": [
+                [
+                    103,
+                    114,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Ten recreational beaches will also be on the list. They are located at Changi, East and West Coast, Sembawang, Pasir Ris, Coney Island, Punggol and Sentosa's Siloso, Palawan and Tanjong beaches.",
+        {
+            "entities": [
+                [
+                    71,
+                    77,
+                    "LOC"
+                ],
+                [
+                    79,
+                    83,
+                    "LOC"
+                ],
+                [
+                    88,
+                    98,
+                    "LOC"
+                ],
+                [
+                    100,
+                    109,
+                    "LOC"
+                ],
+                [
+                    111,
+                    120,
+                    "LOC"
+                ],
+                [
+                    122,
+                    134,
+                    "LOC"
+                ],
+                [
+                    136,
+                    143,
+                    "LOC"
+                ],
+                [
+                    148,
+                    155,
+                    "LOC"
+                ],
+                [
+                    158,
+                    164,
+                    "LOC"
+                ],
+                [
+                    166,
+                    173,
+                    "LOC"
+                ],
+                [
+                    178,
+                    191,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Dhoby Ghaut will primarily be a lush greenery zone with attractions that are targeted at families.",
+        {
+            "entities": [
+                [
+                    0,
+                    11,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Heavy rain on Wednesday afternoon resulted in flooding along TPE near the Pasir Ris Drive 12 exit.",
+        {
+            "entities": [
+                [
+                    74,
+                    92,
+                    "LOC"
+                ],
+                [
+                    61,
+                    64,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Stage 6 comprises the Keppel, Cantonment, and Prince Edward Road stations.",
+        {
+            "entities": [
+                [
+                    22,
+                    28,
+                    "LOC"
+                ],
+                [
+                    30,
+                    40,
+                    "LOC"
+                ],
+                [
+                    46,
+                    64,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Senja Heights and Senja Ridges BTO projects delivered ahead of projected timelines.",
+        {
+            "entities": [
+                [
+                    0,
+                    13,
+                    "LOC"
+                ],
+                [
+                    18,
+                    30,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "When the initial line opened, the rolling stock of the North South Line consisted of 66 first-generation C151 trains only.",
+        {
+            "entities": [
+                [
+                    55,
+                    71,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "New lines and extensions are mostly announced as part of the Land Transport Master Plan, which is announced every five years and outlines the government's intentions for the future of the transport network in Singapore.",
+        {
+            "entities": [
+                [
+                    209,
+                    218,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "From Toa Payoh, the expressway runs along the northern edge of Bukit Timah, curving southwest to meet the Bukit Timah Expressway, before heading west once again at Clementi Avenue 6.",
+        {
+            "entities": [
+                [
+                    5,
+                    14,
+                    "LOC"
+                ],
+                [
+                    63,
+                    74,
+                    "LOC"
+                ],
+                [
+                    106,
+                    128,
+                    "FAC"
+                ],
+                [
+                    164,
+                    181,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "A female driver is appealing for eye-witness or any recording of a case of hit and run accident on 13 Jan 2020 at about 5.30pm to around 8.30pm at Blk 3 Toh Yi Drive open carpark area.",
+        {
+            "entities": [
+                [
+                    147,
+                    165,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Lifestyle, dining and shopping precincts of Tanjong Katong, Joo Chiat, Katong, Parkway Parade and East Coast Park are very accessible by bus",
+        {
+            "entities": [
+                [
+                    44,
+                    58,
+                    "LOC"
+                ],
+                [
+                    60,
+                    69,
+                    "LOC"
+                ],
+                [
+                    71,
+                    77,
+                    "LOC"
+                ],
+                [
+                    79,
+                    93,
+                    "LOC"
+                ],
+                [
+                    98,
+                    113,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The nursing home, together with a senior care centre, will be operated by Ren Ci Hospital.",
+        {
+            "entities": [
+                [
+                    74,
+                    89,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "Similar rolling stock is used on the East West Line, with an electrification of 750 V DC powered by a third rail.",
+        {
+            "entities": [
+                [
+                    37,
+                    51,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The third MRT line in Singapore, the NEL was conceptualised in the 1980s and 1990s.",
+        {
+            "entities": [
+                [
+                    10,
+                    13,
+                    "FAC"
+                ],
+                [
+                    22,
+                    31,
+                    "LOC"
+                ],
+                [
+                    37,
+                    40,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Expired product being sold by Giant at Sunshine Place.",
+        {
+            "entities": [
+                [
+                    30,
+                    35,
+                    "ORG"
+                ],
+                [
+                    39,
+                    53,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The planning, construction and maintenance of the road network is overseen by the Land Transport Authority (LTA), and this extends to expressways in Singapore.",
+        {
+            "entities": [
+                [
+                    82,
+                    106,
+                    "ORG"
+                ],
+                [
+                    108,
+                    111,
+                    "ORG"
+                ],
+                [
+                    149,
+                    158,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Singapore was fortunate as it was protected by the Sumatra landmass, which bore the brunt of the tsunami; the effect on Singapore was limited to tremors felt in some of the common high-rise buildings there.",
+        {
+            "entities": [
+                [
+                    0,
+                    9,
+                    "LOC"
+                ],
+                [
+                    120,
+                    129,
+                    "LOC"
+                ],
+                [
+                    51,
+                    58,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The station was the terminus of the line until the opening of DTL Stage 3 to Expo station on 21 October 2017.Extending the DTL tunnels from Chinatown to Fort Canning station was a challenge, due to the narrow space between two Housing and Development Board (HDB) blocks and the State Court along the route.",
+        {
+            "entities": [
+                [
+                    62,
+                    65,
+                    "FAC"
+                ],
+                [
+                    123,
+                    126,
+                    "FAC"
+                ],
+                [
+                    140,
+                    149,
+                    "LOC"
+                ],
+                [
+                    153,
+                    173,
+                    "LOC"
+                ],
+                [
+                    227,
+                    256,
+                    "ORG"
+                ],
+                [
+                    258,
+                    261,
+                    "ORG"
+                ],
+                [
+                    278,
+                    289,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Two more infill stations (Brickland and Sungei Kadut stations) on the line are being planned and are set to be opened in the 2030s.",
+        {
+            "entities": [
+                [
+                    26,
+                    35,
+                    "LOC"
+                ],
+                [
+                    40,
+                    60,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Despite some opposition, the Land Transport Authority proceeded with the construction to serve commuters along Singapore Polytechnic with Dover housing estate.",
+        {
+            "entities": [
+                [
+                    29,
+                    53,
+                    "ORG"
+                ],
+                [
+                    111,
+                    132,
+                    "LOC"
+                ],
+                [
+                    138,
+                    143,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Taxi travelling along CENTRAL BOULEVARD, stopped abruptly to make a last minute turn towards Marina View near ONE RAFFLES QUAY / THE SAIL.",
+        {
+            "entities": [
+                [
+                    22,
+                    39,
+                    "LOC"
+                ],
+                [
+                    93,
+                    104,
+                    "LOC"
+                ],
+                [
+                    110,
+                    126,
+                    "LOC"
+                ],
+                [
+                    129,
+                    137,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "An anonymous member of our COMPLAINT SINGAPORE Facebook group sent us videos showing a group of young people congregating at Blk 53 and 54 Lengkok Bahru open carpark area on 29 November 2021.",
+        {
+            "entities": [
+                [
+                    47,
+                    55,
+                    "ORG"
+                ],
+                [
+                    27,
+                    46,
+                    "ORG"
+                ],
+                [
+                    125,
+                    131,
+                    "LOC"
+                ],
+                [
+                    136,
+                    152,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "One more rail link is being planned: the Johor Bahru-Singapore Rapid Transit System between Woodlands North and Bukit Chagar, Johor Bahru.",
+        {
+            "entities": [
+                [
+                    41,
+                    83,
+                    "FAC"
+                ],
+                [
+                    92,
+                    107,
+                    "LOC"
+                ],
+                [
+                    112,
+                    124,
+                    "LOC"
+                ],
+                [
+                    126,
+                    137,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The highest 24-hour rainfall figures ever recorded in history were 512.4 mm (20.2 in) (2 December 1978) at Paya Lebar, 467 mm (18.4 in) (1969) and 366 mm (14.4 in) (19 December 2006).The temperature hovers around a diurnal range of a minimum of 25 \u00b0C (77.0 \u00b0F) and a maximum of 33 \u00b0C (91.4 \u00b0F).",
+        {
+            "entities": [
+                [
+                    107,
+                    117,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Mr Lee noted that the distance between this site and Keppel Club, which is situated at the Greater Southern Waterfront, is 2.6km, and there are many HDB flats that could be built on empty plots of land within this area that encompasses Telok Blangah, Henderson and Bukit Merah.",
+        {
+            "entities": [
+                [
+                    53,
+                    64,
+                    "LOC"
+                ],
+                [
+                    91,
+                    118,
+                    "LOC"
+                ],
+                [
+                    236,
+                    249,
+                    "LOC"
+                ],
+                [
+                    251,
+                    260,
+                    "LOC"
+                ],
+                [
+                    265,
+                    276,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "McKinsey's Urban Transportation report rank Singapore's transport system world's best overall based on five criteria - availability, affordability, efficiency, convenience, sustainability.",
+        {
+            "entities": [
+                [
+                    0,
+                    8,
+                    "ORG"
+                ],
+                [
+                    44,
+                    53,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Sitting in the basement of Golden Mile Tower, Er Jie Curry Puff sells fresh handmade curry puffs that are exceptionally popular with the office crowd in the area.",
+        {
+            "entities": [
+                [
+                    46,
+                    63,
+                    "ORG"
+                ],
+                [
+                    27,
+                    44,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Woodlands line extension, costing S$1.35 billion (US$0.7 billion), took precedence over the S$4.3 billion (US$2.4 billion) North East Line.",
+        {
+            "entities": [
+                [
+                    4,
+                    28,
+                    "FAC"
+                ],
+                [
+                    127,
+                    142,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "It commenced operation starting with Stage 1 from Woodlands North to Woodlands South on 31 January 2020.",
+        {
+            "entities": [
+                [
+                    50,
+                    65,
+                    "LOC"
+                ],
+                [
+                    69,
+                    84,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The lower half of the first block will house Quincy House, made up of 255 serviced apartments, while the upper half will have 27 luxury private units under Quincy Private Residences.",
+        {
+            "entities": [
+                [
+                    45,
+                    57,
+                    "LOC"
+                ],
+                [
+                    156,
+                    181,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "A wet market, food centre and shopping complex in one, Tekka Centre is the go-to for your Indian cuisine fix.",
+        {
+            "entities": [
+                [
+                    55,
+                    67,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Woodleigh station, built near the former Bidadari cemetery, was scheduled to be opened about seven or eight years after the rest of the NEL opened.",
+        {
+            "entities": [
+                [
+                    0,
+                    17,
+                    "LOC"
+                ],
+                [
+                    41,
+                    58,
+                    "LOC"
+                ],
+                [
+                    136,
+                    139,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Despite the stall being remotely tucked away behind the main shopping street in Potong Pasir, it receives a constant stream of customers.",
+        {
+            "entities": [
+                [
+                    80,
+                    92,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Plenty of food options in nearby malls, as well as Pasir Ris Central Hawker Centre, but would benefit from a kopitiam within the development.",
+        {
+            "entities": [
+                [
+                    51,
+                    82,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The other parts of Singapore are less dense and busy, and are often filled with housing estates such as from the Housing and Development Board (HDB) or condominiums, and commercial districts are less concentrated.",
+        {
+            "entities": [
+                [
+                    19,
+                    28,
+                    "LOC"
+                ],
+                [
+                    113,
+                    142,
+                    "ORG"
+                ],
+                [
+                    144,
+                    147,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "After the assault, the suspect then boarded a taxi to the Clementi Police Division and stood outside the police station holding the knife.",
+        {
+            "entities": [
+                [
+                    58,
+                    82,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "In late 2004, several parts of Asia and Africa were struck by the 2004 Indian Ocean earthquake and the resulting tsunami.",
+        {
+            "entities": [
+                [
+                    31,
+                    35,
+                    "LOC"
+                ],
+                [
+                    40,
+                    46,
+                    "LOC"
+                ],
+                [
+                    71,
+                    83,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The closest schools, De La Salle School, Unity Secondary and Kranji Primary, will all be within a 10-minute walk.",
+        {
+            "entities": [
+                [
+                    21,
+                    39,
+                    "LOC"
+                ],
+                [
+                    41,
+                    56,
+                    "LOC"
+                ],
+                [
+                    61,
+                    75,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The revised Concept Plan also prioritised the need for Singapore to move away from manufacturing-oriented industries to professional and higher technology industries.",
+        {
+            "entities": [
+                [
+                    55,
+                    64,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "After all, Woodlands Central is home to the massive Causeway Point shopping mall, the Woodlands Civic Centre, bus interchange and MRT, as well as the upcoming Woods Square integrated office/commercial development.",
+        {
+            "entities": [
+                [
+                    11,
+                    28,
+                    "LOC"
+                ],
+                [
+                    52,
+                    66,
+                    "LOC"
+                ],
+                [
+                    86,
+                    108,
+                    "LOC"
+                ],
+                [
+                    130,
+                    133,
+                    "FAC"
+                ],
+                [
+                    159,
+                    171,
+                    "LOC"
+                ],
+                [
+                    110,
+                    125,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "In the west there is a road bridge (Tuas Second Link), which connects to Johor, for road traffic only.",
+        {
+            "entities": [
+                [
+                    36,
+                    52,
+                    "LOC"
+                ],
+                [
+                    73,
+                    78,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "It was announced previously in 2021 that Bukit Merah Polyclinic and Outram Polyclinic will be consolidated into the new Tiong Bahru Polyclinic.",
+        {
+            "entities": [
+                [
+                    41,
+                    63,
+                    "LOC"
+                ],
+                [
+                    68,
+                    85,
+                    "LOC"
+                ],
+                [
+                    120,
+                    142,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The 19 second-generation C651 trains was introduced during the Woodlands extension to complement the existing 66 first-generation C151 trains.",
+        {
+            "entities": [
+                [
+                    63,
+                    82,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "One video showed that a tree had fallen on an SMRT bus in Sungei Gedong.",
+        {
+            "entities": [
+                [
+                    58,
+                    71,
+                    "LOC"
+                ],
+                [
+                    46,
+                    50,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The new centre, set to be completed by 2025, will be located at a waterfront site next to Chinese Garden MRT station.",
+        {
+            "entities": [
+                [
+                    90,
+                    116,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "We're one step closer to making Cross Island Line 1 (CRL1) a reality with the award of contracts for the design and construction of two more stations - Defu and Tampines North!",
+        {
+            "entities": [
+                [
+                    32,
+                    49,
+                    "FAC"
+                ],
+                [
+                    53,
+                    56,
+                    "FAC"
+                ],
+                [
+                    152,
+                    156,
+                    "LOC"
+                ],
+                [
+                    161,
+                    175,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Upon its opening, the Pan Island Expressway had a positive impact on traffic flow in certain areas by alleviating traffic, as was reported by a preliminary Public Works Department study in October 1981.",
+        {
+            "entities": [
+                [
+                    22,
+                    43,
+                    "FAC"
+                ],
+                [
+                    156,
+                    179,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The residential component of One Holland Village is estimated to be completed by the end of 2024, while the commercial zone is estimated to be completed in mid-2022.",
+        {
+            "entities": [
+                [
+                    29,
+                    48,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "In her Facebook post, Chai said that that the kitten was found at a wet market in Tampines Street 81.",
+        {
+            "entities": [
+                [
+                    82,
+                    100,
+                    "LOC"
+                ],
+                [
+                    7,
+                    15,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The service previously continued further south, terminating at Tanjong Pagar Railway Station in the city.",
+        {
+            "entities": [
+                [
+                    63,
+                    92,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Brickland station will be built between Bukit Gombak and Choa Chu Kang stations, while Sungei Kadut station will be built between Yew Tee and Kranji stations and provide an additional interchange with the Downtown line.",
+        {
+            "entities": [
+                [
+                    0,
+                    17,
+                    "LOC"
+                ],
+                [
+                    40,
+                    52,
+                    "LOC"
+                ],
+                [
+                    57,
+                    78,
+                    "LOC"
+                ],
+                [
+                    87,
+                    107,
+                    "LOC"
+                ],
+                [
+                    130,
+                    137,
+                    "LOC"
+                ],
+                [
+                    142,
+                    156,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "As a result, commercial houses and wharves grew disorderly along the banks of the Singapore River, a location known for its accessibility to trading boats.",
+        {
+            "entities": [
+                [
+                    82,
+                    97,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Power Failure at Compassvale Crescent.",
+        {
+            "entities": [
+                [
+                    17,
+                    37,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Looking for eye witnesses for a hit and run at blk 70 geylang bahru.",
+        {
+            "entities": [
+                [
+                    47,
+                    67,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "In 1987, archaeologists discovered earthenware pieces at Kampong Permatang in the northwest region of Pulau Tekong, opposite the mouth of the Johore River.",
+        {
+            "entities": [
+                [
+                    57,
+                    74,
+                    "LOC"
+                ],
+                [
+                    102,
+                    114,
+                    "LOC"
+                ],
+                [
+                    142,
+                    154,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Moreover, it laid out the basic infrastructure from which Singapore developed further.",
+        {
+            "entities": [
+                [
+                    58,
+                    67,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "First announced on 29 August 2013, Tampines North is a new 240-hectare residential estate in the existing Tampines town.",
+        {
+            "entities": [
+                [
+                    35,
+                    49,
+                    "LOC"
+                ],
+                [
+                    106,
+                    119,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Singapore's highly efficient transportation system, the Mass Rapid Transit (MRT), is also a product of the 1971 Concept Plan, speaking to its success in moulding Singapore today.",
+        {
+            "entities": [
+                [
+                    0,
+                    9,
+                    "LOC"
+                ],
+                [
+                    162,
+                    171,
+                    "LOC"
+                ],
+                [
+                    56,
+                    74,
+                    "FAC"
+                ],
+                [
+                    76,
+                    79,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "With a height of 283.7 m (931 ft), it is currently the tallest building in Singapore, breaking the record held jointly by UOB Plaza, One Raffles Place and Republic Plaza for more than 20 years.",
+        {
+            "entities": [
+                [
+                    75,
+                    84,
+                    "LOC"
+                ],
+                [
+                    122,
+                    131,
+                    "LOC"
+                ],
+                [
+                    133,
+                    150,
+                    "LOC"
+                ],
+                [
+                    155,
+                    169,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hyundai Motor announced on 31 March 2020 that it will be building a 28,000 square-metre open innovation lab in the Jurong Innovation District, next to Corporation MRT station, named Hyundai Mobility Global Innovation Centre, to develop future mobility technologies for expansion into other markets.",
+        {
+            "entities": [
+                [
+                    0,
+                    13,
+                    "ORG"
+                ],
+                [
+                    115,
+                    141,
+                    "LOC"
+                ],
+                [
+                    151,
+                    174,
+                    "LOC"
+                ],
+                [
+                    182,
+                    223,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Approximately twice the size of Ang Mo Kio town, when fully operational in 2040, the Tuas Mega Port will be the world's largest fully automated terminal, with features such as automated wharf and yard functions, and fully-electric automated guided vehicles to carry out its key operations.",
+        {
+            "entities": [
+                [
+                    32,
+                    42,
+                    "LOC"
+                ],
+                [
+                    85,
+                    99,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "A driver of a black colour Mazda 3 found his vehicle was damaged at the carpark of Bras Basah Complex.",
+        {
+            "entities": [
+                [
+                    83,
+                    101,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The current MRT network consists of six main lines: the North South Line, East West Line, Circle Line and partially-opened Thomson-East Coast Line operated by SMRT Trains (SMRT Corporation) and the North East Line and Downtown Line operated by SBS Transit.",
+        {
+            "entities": [
+                [
+                    56,
+                    72,
+                    "FAC"
+                ],
+                [
+                    74,
+                    88,
+                    "FAC"
+                ],
+                [
+                    90,
+                    101,
+                    "FAC"
+                ],
+                [
+                    123,
+                    146,
+                    "FAC"
+                ],
+                [
+                    159,
+                    170,
+                    "ORG"
+                ],
+                [
+                    172,
+                    188,
+                    "ORG"
+                ],
+                [
+                    198,
+                    213,
+                    "FAC"
+                ],
+                [
+                    218,
+                    231,
+                    "FAC"
+                ],
+                [
+                    244,
+                    255,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "Officially ground-broken on 25 November 2019, the NS Hub, which occupies a land area of approximately nine hectares, will house the Central Manpower Base (CMPB), Military Medicine Institute (MMI), and a new Fitness Conditioning Centre to meet all the services that pre-enlistees and Operationally Ready National Servicemen (NSmen) need.",
+        {
+            "entities": [
+                [
+                    50,
+                    56,
+                    "LOC"
+                ],
+                [
+                    132,
+                    153,
+                    "ORG"
+                ],
+                [
+                    155,
+                    159,
+                    "ORG"
+                ],
+                [
+                    162,
+                    189,
+                    "ORG"
+                ],
+                [
+                    191,
+                    194,
+                    "ORG"
+                ],
+                [
+                    207,
+                    234,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Residents staying on the second floor of Block 220 Jurong East Street 21 were apparently facing quite a stink.",
+        {
+            "entities": [
+                [
+                    41,
+                    72,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Expo and Changi Airport stations were opened on 10 January 2001 and 8 February 2002 respectively.",
+        {
+            "entities": [
+                [
+                    4,
+                    8,
+                    "LOC"
+                ],
+                [
+                    13,
+                    35,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "A 2,000 square-metre community space within One Holland Village will also be set aside for an Arts Centre developed by The Rice Company.",
+        {
+            "entities": [
+                [
+                    44,
+                    63,
+                    "LOC"
+                ],
+                [
+                    94,
+                    105,
+                    "FAC"
+                ],
+                [
+                    119,
+                    135,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "Among the new locations include Sim Lim Square, SAFRA Yishun, KINEX, Causeway Point, ION Orchard, Toa Payoh Central, Jurong Regional Library and West Mall.",
+        {
+            "entities": [
+                [
+                    32,
+                    46,
+                    "LOC"
+                ],
+                [
+                    48,
+                    60,
+                    "LOC"
+                ],
+                [
+                    62,
+                    67,
+                    "LOC"
+                ],
+                [
+                    69,
+                    83,
+                    "LOC"
+                ],
+                [
+                    85,
+                    96,
+                    "LOC"
+                ],
+                [
+                    98,
+                    115,
+                    "LOC"
+                ],
+                [
+                    117,
+                    140,
+                    "LOC"
+                ],
+                [
+                    145,
+                    154,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "In 2014, the Ministry of Law said Keppel Club's lease will not be extended beyond Dec 31, and Marina Bay Golf Course's lease will not be extended beyond July 2024.",
+        {
+            "entities": [
+                [
+                    34,
+                    45,
+                    "ORG"
+                ],
+                [
+                    94,
+                    116,
+                    "ORG"
+                ],
+                [
+                    13,
+                    28,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The connections are an important economic link to Malaysia, which can be seen as a hinterland.",
+        {
+            "entities": [
+                [
+                    50,
+                    58,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Green spaces would be expanded from 2000 to 4500 ha, with the opening of areas such as Pulau Ubin and the Central Catchment Reserve, which will be  accessible by Park Connectors.",
+        {
+            "entities": [
+                [
+                    87,
+                    97,
+                    "LOC"
+                ],
+                [
+                    106,
+                    131,
+                    "LOC"
+                ],
+                [
+                    162,
+                    177,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Canberra Plaza and Canberra MRT station are slightly further and we figure that very few residents will find these convenient, as there are no direct bus services and the hilly walk across a landed estate is a hassle.",
+        {
+            "entities": [
+                [
+                    0,
+                    14,
+                    "LOC"
+                ],
+                [
+                    19,
+                    39,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Video of severed leg at Blk 37 Margaret Drive is real, police confirms, man, 31, found dead.",
+        {
+            "entities": [
+                [
+                    24,
+                    45,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Announced during the 2017 Budget, Kampong Bugis is a new waterfront development zone in Singapore, which will be given to a master developer, giving flexibility in planning the town layouts as opposed to carving each land plot by itself.",
+        {
+            "entities": [
+                [
+                    34,
+                    47,
+                    "LOC"
+                ],
+                [
+                    88,
+                    97,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "New condos which are popping up, with their non-regulated facades, are changing the character of Joo Chiat.",
+        {
+            "entities": [
+                [
+                    97,
+                    106,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Changi Northern Corridor consists of a new viaduct being built along Loyang Avenue, between Tampines Expressway (TPE) and Loyang Way.",
+        {
+            "entities": [
+                [
+                    4,
+                    28,
+                    "FAC"
+                ],
+                [
+                    73,
+                    86,
+                    "LOC"
+                ],
+                [
+                    96,
+                    115,
+                    "FAC"
+                ],
+                [
+                    117,
+                    120,
+                    "FAC"
+                ],
+                [
+                    126,
+                    136,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "However, service was terminated and the railway land returned to Singapore in 2011.",
+        {
+            "entities": [
+                [
+                    65,
+                    74,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "11 stations, from Braddell to Marina South Pier are underground, with the rest being ground-level or elevated.",
+        {
+            "entities": [
+                [
+                    18,
+                    26,
+                    "LOC"
+                ],
+                [
+                    30,
+                    47,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Broken-ground on 18 April 2017, the 7.66-hectare Woodlands Health Campus is an upcoming 1,800-bed healthcare facility in Woodlands to be managed by the National Healthcare Group.",
+        {
+            "entities": [
+                [
+                    49,
+                    72,
+                    "LOC"
+                ],
+                [
+                    152,
+                    177,
+                    "ORG"
+                ],
+                [
+                    121,
+                    130,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The waterfront theatre will occupy a 3,000 square-metre area along the Esplanade Waterfront, replacing the existing open-air carpark and the Edge, where music festival Baybeats used to be held.",
+        {
+            "entities": [
+                [
+                    71,
+                    91,
+                    "LOC"
+                ],
+                [
+                    141,
+                    145,
+                    "LOC"
+                ],
+                [
+                    168,
+                    176,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "A knife-wielding man was shot and arrested by police outside Clementi Neighbourhood Police Centre, said the police in the early hours of Friday (Feb 18).",
+        {
+            "entities": [
+                [
+                    61,
+                    97,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Singapore has rejected Malaysia's proposal to replace the causeway with a bridge, and Malaysia has since proposed the idea of what became known as \"the crooked half-bridge\", descending halfway to link up with the low-level causeway.",
+        {
+            "entities": [
+                [
+                    0,
+                    9,
+                    "LOC"
+                ],
+                [
+                    23,
+                    31,
+                    "LOC"
+                ],
+                [
+                    86,
+                    94,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "First announced on 29 August 2013, Bidadari is a new 93-hectare residential estate near Serangoon.",
+        {
+            "entities": [
+                [
+                    35,
+                    43,
+                    "LOC"
+                ],
+                [
+                    88,
+                    97,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Operations are monitored remotely from the operations control centre of the respective lines.",
+        {
+            "entities": [
+                [
+                    43,
+                    68,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The court heard that the trio had attended a funeral wake at the multipurpose hall of Block 50A Commonwealth Drive for a man they knew through their gang.",
+        {
+            "entities": [
+                [
+                    86,
+                    114,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "One Punggol will also host food and beverage establishments and tuition enrichment providers, among other retailers.",
+        {
+            "entities": [
+                [
+                    0,
+                    11,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "With over 300 art pieces across 80 stations, it is Singapore's largest public art programme.",
+        {
+            "entities": [
+                [
+                    51,
+                    61,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The station, to be constructed underground, will feature an underground link to the CIQ Building and connected via an underground concourse to the existing Woodlands North MRT station on the Thomson-East Coast MRT line.",
+        {
+            "entities": [
+                [
+                    84,
+                    96,
+                    "LOC"
+                ],
+                [
+                    156,
+                    183,
+                    "LOC"
+                ],
+                [
+                    191,
+                    218,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "A branch line to Bishan Depot exists between the Ang Mo Kio and Bishan stations.",
+        {
+            "entities": [
+                [
+                    17,
+                    29,
+                    "LOC"
+                ],
+                [
+                    49,
+                    59,
+                    "LOC"
+                ],
+                [
+                    64,
+                    78,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "There is an interesting sight at a temporary booth located at Boon Lay Place Market and Food Village, Blk 221A Boon Lay Place.",
+        {
+            "entities": [
+                [
+                    62,
+                    100,
+                    "LOC"
+                ],
+                [
+                    102,
+                    125,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Mass Rapid Transit, which opened in 1987, is a heavy rail metro system that serves as the major backbone of Singapore's public transport system along with public buses; as of August 2021, the network has a length of 216 km (134.22 mi) and 187 stations.",
+        {
+            "entities": [
+                [
+                    4,
+                    22,
+                    "FAC"
+                ],
+                [
+                    112,
+                    121,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Within a year, 20 more stations had been added to the network and a direct service existed between Yishun and Lakeside stations, linking up Central Singapore to Jurong in the west by the end of 1988.",
+        {
+            "entities": [
+                [
+                    99,
+                    105,
+                    "LOC"
+                ],
+                [
+                    110,
+                    118,
+                    "LOC"
+                ],
+                [
+                    148,
+                    157,
+                    "LOC"
+                ],
+                [
+                    161,
+                    167,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Construction for Stage 2 began on 3 July 2009 with a groundbreaking ceremony at Beauty World station.",
+        {
+            "entities": [
+                [
+                    80,
+                    100,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Tanglin Shopping Centre is one of Singapore's earliest retail landmarks and occupies a prominent location next to the St Regis Hotel in the Orchard Road enclave.",
+        {
+            "entities": [
+                [
+                    0,
+                    23,
+                    "LOC"
+                ],
+                [
+                    34,
+                    43,
+                    "LOC"
+                ],
+                [
+                    118,
+                    132,
+                    "LOC"
+                ],
+                [
+                    140,
+                    152,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Train services between Joo Koon and Gul Circle were temporarily suspended until its resumption on 28 May 2018; between the suspension a free bridging bus service is available between the two stations.",
+        {
+            "entities": [
+                [
+                    23,
+                    31,
+                    "LOC"
+                ],
+                [
+                    36,
+                    46,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Today there was a big group of new command school enlistees reporting to Pasir Laba Camp and SAFTI, this caused a massive jam on PIE (Tuas) from Upper Jurong Road exit all the way to the KJE Woodlands Road exit, and also Jurong Town Hall Road exit.",
+        {
+            "entities": [
+                [
+                    73,
+                    88,
+                    "LOC"
+                ],
+                [
+                    93,
+                    98,
+                    "LOC"
+                ],
+                [
+                    129,
+                    132,
+                    "FAC"
+                ],
+                [
+                    134,
+                    138,
+                    "LOC"
+                ],
+                [
+                    145,
+                    162,
+                    "LOC"
+                ],
+                [
+                    187,
+                    190,
+                    "FAC"
+                ],
+                [
+                    191,
+                    205,
+                    "LOC"
+                ],
+                [
+                    221,
+                    242,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "It currently operates independently from Kim Chuan Depot.",
+        {
+            "entities": [
+                [
+                    41,
+                    56,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The PIE was then extended further westward to Tuas between 1991 and 1993.",
+        {
+            "entities": [
+                [
+                    4,
+                    7,
+                    "FAC"
+                ],
+                [
+                    46,
+                    50,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Some have criticised Singapore's lack of spontaneous organic city growth and that the emphasis on a highly controlled urban plan has resulted in a sterile city.",
+        {
+            "entities": [
+                [
+                    21,
+                    30,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Since Sengkang and Punggol are neighborhood, it would be great if LRT for both town are Linked so commuter no need to change to MRT",
+        {
+            "entities": [
+                [
+                    6,
+                    14,
+                    "LOC"
+                ],
+                [
+                    19,
+                    26,
+                    "LOC"
+                ],
+                [
+                    66,
+                    69,
+                    "FAC"
+                ],
+                [
+                    128,
+                    131,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "He also recommended that two major eco-links be installed, with one at the Kranji Expressway between Tengah forest and the areas around Old Chua Chu Kang Road and another linking up Tengah forest to Bukit Gombak across two roads there.",
+        {
+            "entities": [
+                [
+                    75,
+                    92,
+                    "LOC"
+                ],
+                [
+                    101,
+                    114,
+                    "LOC"
+                ],
+                [
+                    136,
+                    158,
+                    "LOC"
+                ],
+                [
+                    182,
+                    195,
+                    "LOC"
+                ],
+                [
+                    199,
+                    211,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The site was the last available Government Land Sales (GLS) site along the prime stretch of the Singapore River.",
+        {
+            "entities": [
+                [
+                    96,
+                    111,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "A new mixed-use, integrated development named CanningHill Piers will be built on the current Liang Court complex with a 696-unit condominium spread across two residential towers, a 2-storey retail mall named CanningHill Square, a 460- to 475-room Moxy hotel by Marriott replacing Novotel, and a 192-unit Somerset serviced residence.",
+        {
+            "entities": [
+                [
+                    46,
+                    63,
+                    "LOC"
+                ],
+                [
+                    93,
+                    104,
+                    "LOC"
+                ],
+                [
+                    208,
+                    226,
+                    "LOC"
+                ],
+                [
+                    247,
+                    251,
+                    "ORG"
+                ],
+                [
+                    261,
+                    269,
+                    "ORG"
+                ],
+                [
+                    280,
+                    287,
+                    "ORG"
+                ],
+                [
+                    304,
+                    331,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Continuous service between Pasir Ris and Gul Circle resumed on 28 May 2018, with the permanent activation of the new CBTC system; since the incident, selected portions of either North South or East West line were to conduct track renewal works with early weekend closures and later station openings.",
+        {
+            "entities": [
+                [
+                    27,
+                    36,
+                    "LOC"
+                ],
+                [
+                    41,
+                    51,
+                    "LOC"
+                ],
+                [
+                    178,
+                    189,
+                    "FAC"
+                ],
+                [
+                    193,
+                    207,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "There is the spacious lawn in front of the Victoria Concert Hall that was expanded by realigning part of Fullerton Road, with benches located long the adjacent tree-lined pavement to provide comfortable spots to take a breather.",
+        {
+            "entities": [
+                [
+                    43,
+                    64,
+                    "LOC"
+                ],
+                [
+                    105,
+                    119,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Buses always illegally park at Lorong 31 Geylang, not the first time happening!",
+        {
+            "entities": [
+                [
+                    31,
+                    48,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The North South line (NSL) is a high-capacity Mass Rapid Transit (MRT) line in Singapore, operated by SMRT.",
+        {
+            "entities": [
+                [
+                    4,
+                    20,
+                    "FAC"
+                ],
+                [
+                    22,
+                    25,
+                    "FAC"
+                ],
+                [
+                    46,
+                    64,
+                    "FAC"
+                ],
+                [
+                    66,
+                    69,
+                    "FAC"
+                ],
+                [
+                    79,
+                    88,
+                    "LOC"
+                ],
+                [
+                    102,
+                    106,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "Kovan Wellspring, which sits next to Kovan MRT station on the North-East Line, is particularly attractive as it is competitively priced compared with a private condominium.",
+        {
+            "entities": [
+                [
+                    0,
+                    16,
+                    "LOC"
+                ],
+                [
+                    37,
+                    54,
+                    "LOC"
+                ],
+                [
+                    62,
+                    77,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Hello everybody, every morning 5-6am somebody keeps littering food for the birds. A lot of birds always flock here and causes major annoyance. Have complained to NEA and they said will monitor but nothing has been done to stop the litterer. It happens outside 200A Sengkang East Road near Bus Stop.",
+        {
+            "entities": [
+                [
+                    260,
+                    283,
+                    "LOC"
+                ],
+                [
+                    289,
+                    297,
+                    "FAC"
+                ],
+                [
+                    162,
+                    165,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Thomson-East Coast Line will add greatly to the accessibility and connectivity of the current rail network, with interchanges to all other five MRT lines.",
+        {
+            "entities": [
+                [
+                    4,
+                    27,
+                    "FAC"
+                ],
+                [
+                    148,
+                    151,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Terrible tasting teochew noodle at Blk 888 Woodlands Dr coffee shop.",
+        {
+            "entities": [
+                [
+                    35,
+                    55,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Nevertheless, the LTA reversed its decision and made plans to install half-height platform screen doors on elevated stations on 25 January 2008.",
+        {
+            "entities": [
+                [
+                    18,
+                    21,
+                    "ORG"
+                ]
+            ]
+        }
+    ],
+    [
+        "The first platform screen doors by ST Electronics were installed at Pasir Ris, Jurong East and Yishun stations in 2009 as trial runs.",
+        {
+            "entities": [
+                [
+                    35,
+                    49,
+                    "ORG"
+                ],
+                [
+                    68,
+                    77,
+                    "LOC"
+                ],
+                [
+                    79,
+                    90,
+                    "LOC"
+                ],
+                [
+                    95,
+                    109,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Land acquisitions affecting parts of the Laguna National Golf and Country Club and three JTC Corporation plots will also take place as part of the Changi Southern Corridor construction.",
+        {
+            "entities": [
+                [
+                    41,
+                    78,
+                    "LOC"
+                ],
+                [
+                    89,
+                    104,
+                    "ORG"
+                ],
+                [
+                    147,
+                    171,
+                    "FAC"
+                ]
+            ]
+        }
+    ],
+    [
+        "The Kallang Theatre and its surrounding areas will be redeveloped into an integrated sport, entertainment, and lifestyle centre.",
+        {
+            "entities": [
+                [
+                    4,
+                    19,
+                    "LOC"
+                ]
+            ]
+        }
+    ],
+    [
+        "Passing underneath the Singapore River and Fort Canning Hill to Dhoby Ghaut station, the NEL continues north to Little India station, cutting underneath Bukit Timah Road.",
+        {
+            "entities": [
+                [
+                    23,
+                    38,
+                    "LOC"
+                ],
+                [
+                    43,
+                    60,
+                    "LOC"
+                ],
+                [
+                    64,
+                    83,
+                    "LOC"
+                ],
+                [
+                    89,
+                    92,
+                    "LOC"
+                ],
+                [
+                    112,
+                    132,
+                    "LOC"
+                ],
+                [
+                    153,
+                    169,
+                    "LOC"
+                ]
+            ]
+        }
+    ]
+]
