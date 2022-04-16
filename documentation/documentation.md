@@ -129,6 +129,8 @@ The repo is organised into the following folders:
 |                  | singapore-postal-codes     | [OneMap Data](https://github.com/xkjyeah/singapore-postal-codes) by xkyyeah |
 |                  | text_data                  | Text for annotations                                                        |
 |                  | training_datasets          | Training and Test Datasets for spaCy in json and spacy binary formats       |
+| documentation    |                            | Full documentation for the project                                          |
+|                  | images                     | Image references for this documentation markdown file                       |
 | models           | loc_er                     | _en_core_web_md_ model with "locations dictionary" EntityRuler pipe added   |
 |                  | v1.1                       | Trial to create base model for Dictionary-centric method                    |
 |                  | v2.0                       | Base model for Dictionary-centric method                                    |
@@ -136,9 +138,9 @@ The repo is organised into the following folders:
 |                  | v3.0                       | Enhanced NER-based model                                                    |
 | streamlit        |                            | Model Demo for Streamlit                                                    |
 | training_config  |                            | Base configuration and final configuration files for models                 |
-| training_scripts | doccano_base_training      | Scripts for model training specific to Enhanced NER-based model             |
+| trianing_scripts |                            | Scripts for model training common to both methods                           |
+|                  | doccano_base_training      | Scripts for model training specific to Enhanced NER-based model             |
 |                  | entity_ruler_base_training | Scripts for model training specific to Dictionary-centric model             |
-|                  |                            | Scripts for model training common to both methods                           |
 
 # Model Creation Process
 
@@ -195,9 +197,9 @@ The list was iterated over with this method, followed by removal of duplicate en
 
 ### Conversion of Entries to Standard Capitalisation
 
-As the data entries are in title case, a snippet of code was created to convert the entries to standard capitalisation before they were extracted. Proper capitalisation is one of the factors the spaCy pipeline takes into account when tagging named entities, therefore
+As the data entries are in title case, a snippet of code was created to convert the entries to standard capitalisation before they were extracted. Proper capitalisation is one of the factors the spaCy pipeline takes into account when tagging named entities, therefore it was important that the location entries were converted from block letters to standard capitalisation.
 
-This is as the spaCy pipeline tags named entities by taking
+A simple function was able to do the bulk of the work:
 
     def properly_capitalise(location_name):
       properly_capitalised_name = location_name.lower().title()
@@ -224,6 +226,28 @@ The number of unique entries for building reduced was afterward reduced from 160
 The cleaned building names list was then compiled with the other extracted locations list in [data/extracted_locations/combined_locations.json](../data/extracted_locations/combined_locations.json)
 
 ## Sourcing Data for Annotations
+
+**Relevant Scripts**:
+
+- [training_scripts/entity_ruler_base_training/er_train_data_generator.ipynb](../training_scripts/entity_ruler_base_training/er_train_data_generator.ipynb)
+- [training_scripts/doccano_base_training/data_to_doccano.ipynb](../training_scripts/doccano_base_training/data_to_doccano.ipynb)
+
+Training of spaCy's NER pipe requires a dataset of sentences/text that has been annotated to highlight which words are named entities and what kind of named entities they are. The text was sourced from a variety of articles online.
+
+For the NER pipe trained for the Dictionary-centric method, news articles and Wikipedia articles that had a multitude of location references were scraped. The **newspaper3k** and **wikipediaapi** packages were imported to scrape these articles directly. Refer to the [er_train_data_generator.ipnyb](../training_scripts/entity_ruler_base_training/er_train_data_generator.ipynb) script for the exact list of articles.
+
+For the NER pipe trained for the Enhanced NER-based method, a few more news articles were added, and the selection of articles and sentences was broadened to include articles from food/travel blogs, property review websites, and an online complaints page. Articles from these sites often reference locations and addresses in a more informal and colloquial manner, and it would be good for the model to recognise location names that are mentioned as such.
+
+**Sites featuring articles with "colloquial references" to Singapore locations**
+
+- [Mothership](https://mothership.sg/)
+- [Stacked Homes](https://stackedhomes.com/)
+- [PropertyGuru](https://www.propertyguru.com.sg/)
+- [Miss Tam Chiak](https://www.misstamchiak.com/)
+- [Complaint Singapore](https://complaintsingapore.com/)
+- [Complaint Singapore on Facebook](https://www.facebook.com/groups/complaintsingapore/)
+
+Sentences from these sites were manually scraped and sometimes modified slightly to correct grammar. This was as location references were not as "abundant" as those from the previously selected list of news and Wikipedia articles, and using a package like beautifulsoup to scrape the articles would result in the need to further manually clean and delete the remainder of the sentences not containing location references anyway. The scraped sentences can be found at [data/text_data/informal_text_data.txt](../data/text_data/informal_text_data.txt)
 
 ## Data Annotation
 
