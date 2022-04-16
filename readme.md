@@ -9,6 +9,12 @@ Some portions of code/data was derived from the following sources:
 Data: [2017 OneMap Data](https://github.com/xkjyeah/singapore-postal-codes) by xkyyeah  
 Model Training: [spaCy v3 Tutorials](https://github.com/wjbmattingly/spacy_tutorials_3x) | [spaCy NER Tutorials](https://github.com/wjbmattingly/ner_youtube/tree/main/lessons) by Dr W.J.B Mattingly
 
+The necessary packages can be found in the [requirements.txt](./requirements.txt) file. Note that packages for newspaper3k, doccano and wikipediaapi are not included as they affect the Streamlit mini-app deployment If you are installing packages to your environment with the requirements.txt file, please add on these lines in the command terminal to install those packages:
+
+        !pip install wikipediaapi
+        !pip install newspaper3k
+        !pip install doccano
+
 ## Model Creation Process
 
 ### Model v1.1, v2.0 and v2.1
@@ -31,12 +37,23 @@ Model Training: [spaCy v3 Tutorials](https://github.com/wjbmattingly/spacy_tutor
 
 ## Updates
 
+CAA 160422:
+
+- Updated documentation.md
+- Reorganised some files
+
+CAA 140422:
+
+- Took down and reuploaded repo to remove residual Git LFS files, which were clogging up the previous iteration of the repo
+- Fixed requirements.txt file. Note that it lacks the packages for newspaper3k, wikipediaapi and doccano as the file is used for Streamlit app deployment and some packages for these files affect app deployment.
+- Added documentation.md
+
 CAA 290322:
 
 - Added scripts to handle and convert traindata from Doccano
 - Added script to run a mini Streamlit app under streamlit/model_demo.py
 - Added a third, Doccano-based model under model_v3.0/model_best
-- Fixed some file references.
+- Fixed some file references
 
 CAA 100322:
 
