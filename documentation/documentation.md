@@ -16,9 +16,7 @@ Create a re-trainable and potentially scalable Named Entity Recognition model fo
 
 - Basic fundementals of Python 3 and pip.
 - Some understanding of spaCy NLP Library (tutorial seperate from this markdown file)
-- The specific software to be downloaded can be found on the requirements.txt file.
-
-Note that the models built here are set to run on the CPU, but can be modified to run on the GPU (NVIDIA GPUs only).
+- The specific software to be downloaded can be found on the requirements.txt file. Note that the requirements.txt file excludes the newspaper3k, wikipediaapi and doccano packages as well as their own required packages as it is used to run the Streamlit mini app.
 
 ## Table of Contents
 
@@ -42,6 +40,7 @@ Note that the models built here are set to run on the CPU, but can be modified t
   - [Data Annotation](#data-annotation)
     - [Automated Annotations with spaCy EntityRuler](#automated-annotations-with-spacy-entityruler)
     - [Manual Annotations with Doccano](#manual-annotations-with-doccano)
+    - [Conversion to spaCy v3.0 binary format](#conversion-to-spacy-v30-binary-format)
   - [Model Training](#model-training)
     - [Considerations and configuration for v1.1](#considerations-and-configuration-for-v11)
     - [Considerations and configuration for v2.0](#considerations-and-configuration-for-v20)
@@ -160,6 +159,8 @@ Different steps were taken to create Dictionary-centric Models (v1.0, v2.0, v2.1
 2. Creating annotations manually with Doccano
 3. Training the model with the annotations
 
+For a basic, yet detailed tutorial on how to train NER models with spaCy v3.0, I highly recommend Dr WJB Mattingly's series on [Youtube](https://www.youtube.com/playlist?list=PL2VXyKi-KpYvuOdPwXR-FZfmZ0hjoNSUo)
+
 ## Location Data Collection & Cleaning
 
 **Relevant Script**: [training_scripts/entity_ruler_base_training/onemap_names_filter.ipynb](../training_scripts/entity_ruler_base_training/onemap_names_filter.ipynb)
@@ -251,9 +252,58 @@ Sentences from these sites were manually scraped and sometimes modified slightly
 
 ## Data Annotation
 
+In an NER model creation process, annotations highlight which set of words/letters are named entities. This is one example, with 1 organisation (ORG) and 2 unique locations (LOC) having been identified and their positions (by letter) indicated.
+
+![Example annotation highlighting Today as an organisation and Chinatown and Marina Bay as locations, with the former location being mentioned and highlighted twice](./images/annotation-example.png)
+
+Annotations can either be created with a script or highlighted manually. The former is significantly faster, but fail to highlight named entities that are have case or spelling deviations, while the latter enables more accurate labelling at the expense of time.
+
 ### Automated Annotations with spaCy EntityRuler
 
+**Relevant Scripts**:
+
+- [training_scripts/entity_ruler_base_training/entity_ruler_v1.ipynb](../training_scripts/entity_ruler_base_training/entity_ruler_v1.ipynb)
+- [training_scripts/entity_ruler_base_training/er_train_data_generator.ipynb](../training_scripts/entity_ruler_base_training/er_train_data_generator.ipynb)
+
+The "Dictionary of Locations" EntityRuler used for the dictionary-centric models was originally envisaged to tag locations in the text being run through the model pipeline by referencing a list of locations.
+
+With this feature in mind, a script could be written to use the EntityRuler to tag locations into the annotation format as seen above, effectively automating the process of annotation creation.
+
+A visual representation of the EntityRuler creation and how it was utilised to generate annotation data is as follows:
+
+![ER Annotation Generation Process](./images/er_td_generation_process.png)
+
+The EntityRuler pipe was created in the [entity_ruler_v1.ipynb](../training_scripts/entity_ruler_base_training/entity_ruler_v1.ipynb) notebook with the [combined_locations.json](../data/extracted_locations/combined_locations.json) file being the reference for the locations. It was then added to an _en_core_web_sm_ model, placed before the latter's native NER pipe, and the new model saved as the [loc_er model](../models/loc_er)
+
+In [er_train_data_generator.ipynb](../training_scripts/entity_ruler_base_training/er_train_data_generator.ipynb), the news and Wikipedia articles were scraped and broken into their constituent sentences. The [loc_er model](../models/loc_er) was then used to create the annotations. 924 sets of annotations were created, and were further split into TRAINING and TEST data in preparation for the training process. The annotation data generated was however in JSON format meant for spaCy v2.0, and needed to be further converted to spaCy v3.0's native binary file format, which will be addressed later.
+
 ### Manual Annotations with Doccano
+
+**Relevant Scripts**
+
+- [training_scripts/doccano_base_training/data_to_doccano.ipynb](../training_scripts/doccano_base_training/data_to_doccano.ipynb)
+- [training_scripts/doccano_base_training/doccano_to_spacy2.ipynb](../training_scripts/doccano_base_training/doccano_to_spacy2.ipynb)
+
+The native and preferred manual annotation creation package for spaCy is Explosion's [prodigy](https://prodi.gy/). Although it enables annotation data to be generated direct to spaCy v3.0 binary format, using it requires paying for a license. An alternative annotation generation package, [doccano](https://github.com/doccano/doccano), was instead used. As it accepts data in the _textline_ format and outputs data in the _JSONL_ format, extra steps are required to prepare the text data and convert the generated annotation data to the spaCy v2.0 JSON format, as seen below:
+
+![Doccano Annotation Generation Process](./images/doccano_td_generation_process.png)
+
+The manual annotation process, while lengthy, enables more accurate tagging of locations, and the ability to tag the same named entity with different tags based on context.
+
+The articles first need to be broken up into their constituent sentences, which are then compiled into a txt file in textline format, as done in [data_to_doccano.ipynb](../training_scripts/doccano_base_training/data_to_doccano.ipynb). The compiled list of locations is saved as [data/text_data/filtered_textdata.txt](../data/text_data/filtered_textdata.txt]), and manually run through to pick out non utf-8 compliant characters. This is as having such characters will later down the line affect the exporting of output data from doccano. Some examples include the use of non-utf-8 compliant dashes and apostrophes.
+
+![bad utf 1](./images/spacy_doc_bad_utf.png)
+![bad utf 3](./images/doccano_bad_utf_3.png)
+
+Once the data has been cleaned, the project can be created. The setup is as below. Crucially, the project should be a **Sequence Labelling** project and the **_Allow Overlapping Enities_ checkbox should be UNTICKED**.
+
+![Setup for Doccano](./images/doccano_setup.png)
+
+In annotating the text, named entities were either tagged as LOCATIONS, ORGANISATIONS or FACILITIES. The first two were tagged based on the context of the sentence, while the latter was only used to tag named entities that cannot be tagged to distinct, localised shapefiles (MRT Lines and Expressways).
+
+Once the annotations have been finished, the data was exported back and converted to the spacy v2.0 JSON format in [doccano_to_spacy2.ipynb](../training_scripts/doccano_base_training/doccano_to_spacy2.ipynb)
+
+### Conversion to spaCy v3.0 binary format
 
 ## Model Training
 
