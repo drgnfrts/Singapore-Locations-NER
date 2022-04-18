@@ -1,3 +1,4 @@
+from pickle import TRUE
 import streamlit as st
 import spacy
 from spacy import displacy, load
@@ -40,7 +41,7 @@ def load_models():
 models = load_models()
 
 abbreviation_dictionary = []
-with open("./data/other_location_data/sg_abbreviations.csv", "r") as csv_file:
+with open("./data/extracted_locations/sg_abbreviations.csv", "r") as csv_file:
     csvtest = csv.reader(csv_file, delimiter=",")
     for row in csvtest:
         abbreviation_dictionary.append(row)
@@ -76,8 +77,11 @@ def clear_form():
     st.session_state[1] = ""
 
 
-def find_ents(model, input):
-    doc = model(lengthen_abbreviations(input))
+def find_ents(model, input, abr_lengthen):
+    if abr_lengthen == True:
+        doc = model(lengthen_abbreviations(input))
+    else:
+        doc = model(input)
     ent_html = displacy.render(doc, style="ent", jupyter=False)
     st.markdown(ent_html, unsafe_allow_html=True)
     st.write("")
@@ -85,11 +89,15 @@ def find_ents(model, input):
 
 with st.form("NER_form"):
     container = st.container()
-    all = st.checkbox("Select all")
+    all = st.checkbox("Select all models")
+    unabbreviate = st.checkbox("Lengthen abbreviations")
+    print(unabbreviate)
     if all:
-        selected_options = container.multiselect("Choose one or more models to analyse text with:",['Standard Model', 'Dictionary Model', 'NER-based Model'],['Standard Model', 'Dictionary Model', 'NER-based Model'])
+        selected_options = container.multiselect("Choose one or more models to analyse text with:", [
+                                                 'Standard Model', 'Dictionary Model', 'NER-based Model'], ['Standard Model', 'Dictionary Model', 'NER-based Model'])
     else:
-        selected_options =  container.multiselect("Choose one or more models to analyse text with:",['Standard Model', 'Dictionary Model', 'NER-based Model'])
+        selected_options = container.multiselect("Choose one or more models to analyse text with:", [
+                                                 'Standard Model', 'Dictionary Model', 'NER-based Model'])
     text_input = st.empty()
     input = text_input.text_area('Text to analyze:', key=1)
     c_submit, c_clear, c_last = st.columns([1, 1, 5])
@@ -101,13 +109,13 @@ with st.form("NER_form"):
     if submitted:
         if "Standard Model" in selected_options:
             st.header("Pre-trained Standard English Model 💂")
-            find_ents(models["std"], input)
+            find_ents(models["std"], input, unabbreviate)
         if "Dictionary Model" in selected_options:
             st.header("Custom Trained Dictionary-based Model for SG Locations 🦁")
-            find_ents(models["erl"], input)
+            find_ents(models["erl"], input, unabbreviate)
         if "NER-based Model" in selected_options:
             st.header("Custom Trained NER-based Model for SG Locations 🦁")
-            find_ents(models["dcn"], input)
+            find_ents(models["dcn"], input, unabbreviate)
 
 with st.expander("ℹ️ - About this app", expanded=False):
     st.write(
@@ -118,5 +126,3 @@ with st.expander("ℹ️ - About this app", expanded=False):
 	    """
     )
     st.markdown("")
-
-
