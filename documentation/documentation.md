@@ -342,6 +342,8 @@ The next sections will discuss the considerations in selecting the pipes to be t
 
 ### Considerations and configuration for v1.1
 
+![Model v1.0 architecture](./images/mv1_architecture.jpg)
+
 Model v1.1 was a test build rather than a serious attempt at generating a base pipeline for the Dictionary-centric model. The model only consists of the tok2vec and NER pipes, in an attempt to see how accurate it would be without the POS Tagger and Dependency Parser pipes.
 
 On the spaCy site, select the following quickstart options, then copy the base configuration generated.
@@ -356,12 +358,77 @@ Delete this section:
 
 And replace with this:
 
-![Freezing tok2vec](./images/freeze_tok2vec_v1.png)
+    [components.tok2vec]
+    source = "en_core_web_md"
 
 The model can be trained once done. The performance of the model was very poor and was deemed unsuitable to be a base pipeline for the Dictionary-centric model.
 
 ### Considerations and configuration for v2.0 and v3.0
 
-Model v2.0 and v3.0 have the same base pipeline architecture, consisting (in order) of tok2vec, tagger, parser and NER pipes. The only difference between the two is in the source of training data.
+![Model v2.0 architecture](./images/mv20architecture.jpg)
+![Model v3.0 architecture](./images/mv30architecture.jpg)
+
+Model v2.0 and v3.0 have the same base pipeline architecture, consisting (in order) of tok2vec, tagger, parser and NER pipes. The only difference between the two is in the source of training data, with v2.0 using the EntityRuler-generated training data and v3.0 using the Doccano-annotated training data.
+
+On the spaCy site, select the following quickstart options, then copy the base configuration generated.
+
+![Preview of quickstart menu for model v2.0 and 3.0](./images/modelv23quickstart.png)
+
+Once the final configuration file has been generated from the base configuration file, edit it accordingly.
+
+First, link to the sources of training and validation data:
+
+Model v2.0:
+
+    [paths]
+    train = ./data/training_datasets/training_set_er.spacy
+    dev = ./data/training_datasets/validation_set_er.spacy
+    vectors = null
+    init_tok2vec = null
+
+Model v3.0:
+
+    [paths]
+    train = ./data/training_datasets/training_set_doccano.spacy
+    dev = ./data/training_datasets/validation_set_doccano.spacy
+    vectors = null
+    init_tok2vec = null
+
+Secondly, for both model v2.0 and model v3.0, edit the tok2vec, tagger and parser sections to ensure that they use the pipes from the pre-built en_core_web_sm model.
+
+Delete all component subsections after _components.ner.model.tok2vec_
+
+    # -> delete from here
+    [components.ner.model.tok2vec]
+    .
+    .
+    .
+    # -> delete until here
+    [corpora]
+
+Replace with:
+
+    [components.parser]
+    source = "en_core_web_md"
+
+    [components.tagger]
+    source = "en_core_web_md"
+
+    [components.tok2vec]
+    source = "en_core_web_md"
+
+The models can now be trained. As the NER pipe in Model v3.0 was fed annotation data of greater quantity, quality and variety as compared to Model v2.0, it is the most accurate of all the models generated.
+
+Model v2.0 still holds its own as compared to the lacklustre Model v1.0, and performs decently enough to act as a "safety net" in a Dictionary-centric NER Model.
 
 ### Adding EntityRuler to v2.0 to create v2.1
+
+**Relevant Script:** [training_scripts/entity_ruler_base_training/add_er_to_v2.0.py](./training_scripts/entity_ruler_base_training/add_er_to_v2.0.py)
+
+Adding the Entity Ruler pipe to Model v2.0 is the last step in creating the Dictionary-centric NER Model. Refer to the script for the exact details.
+
+A prime consideration is where the Entity Ruler pipe should be placed. In the end it was decided that it should be placed between the Dependency Parser and NER pipes.
+
+spacy's pipeline architecture is such that earlier pipes have _primacy_, which means later pipes cannot change information generated from pipes placed earlier in the pipeline.
+
+Placing the Entity Ruler "Dictionary of Locations" pipe after the Dependency Parser enables the Tagger and Parser to tag grammatical forms and relate the words together before anything else can be done to the text. The Entity Ruler was also placed before the NER to ensure its "Dictionary of Locations" gets the first say in picking out locations.
