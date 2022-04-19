@@ -1,3 +1,5 @@
+# This script adds the "Dictionary of Locations" EntityRuler to model v2.0 to create model v2.1
+
 import spacy
 
 nlp = spacy.load("..\..\models\model_v2.0\model-best")
