@@ -58,7 +58,6 @@ with open("./data/extracted_locations/sg_abbreviations.csv", "r") as csv_file:
 # Function below utilises the list to lengthen the abbreviations
 def lengthen_abbreviations(text):
     split = re.findall(r"[\w']+|[.,!?;&] | |-", text)
-    print(split)
     i = 0
     for word in split:
         for row in abbreviation_dictionary:
@@ -69,8 +68,6 @@ def lengthen_abbreviations(text):
                 elif word == row[check_column]:
                     split[i] = row[3]
                 check_column += 1
-            csv_file.close()
-
         i += 1
     cleaned_text = ''.join(split)
     return cleaned_text
@@ -108,17 +105,19 @@ def find_ents(model, input, abr_lengthen):
     st.write("")
 
 
+# Dictionary for def display_models() to reference
+model_choice = {"Standard Model": ("Pre-trained Standard English Model 💂", models["std"]),
+                "Dictionary Model": ("Dictionary-centric Model for SG Locations 📖", models["erl"]),
+                "NER-based Model": ("Enhanced NER-based Model for SG Locations 🦁", models["dcn"])
+                }
+
+
 # Function to display the models and the text analysed with def find_ents()
 def display_models(selected_models, text_input, abbreviation_status):
-    if "Standard Model" in selected_models:
-        st.header("Pre-trained Standard English Model 💂")
-        find_ents(models["std"], text_input, abbreviation_status)
-    if "Dictionary Model" in selected_models:
-        st.header("Dictionary-centric Model for SG Locations 📖")
-        find_ents(models["erl"], text_input, abbreviation_status)
-    if "NER-based Model" in selected_models:
-        st.header("Enhanced NER-based Model for SG Locations 🦁")
-        find_ents(models["dcn"], text_input, abbreviation_status)
+    for selected_model in selected_models:
+        st.header(model_choice[selected_model][0])
+        find_ents(model_choice[selected_model][1],
+                  text_input, abbreviation_status)
 
 
 # The actual form with inputs for model type, lengthening abbreviations and text to be analysed.

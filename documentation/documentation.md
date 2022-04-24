@@ -165,31 +165,41 @@ For a basic, yet detailed tutorial on how to train NER models with spaCy v3.0, I
 
 **Relevant Script**: [training_scripts/entity_ruler_base_training/onemap_names_filter.ipynb](../training_scripts/entity_ruler_base_training/onemap_names_filter.ipynb)
 
-For the location names and addresses data, a [repo of Singapore location names](https://github.com/xkjyeah/singapore-postal-codes) was cloned and saved to [data/singapore-postal-codes](../data/singapore-postal-codes/).
+To create the Dictionary-centric model, a "dictionary of locations" must first be put together. A full list of location entries needs to be them compiled to create this "dictionary". The location entries would include things like:
 
-A raw data entry looks like this:
+- Addresses
+- Building names
+- Street names
+- Postal codes
+
+A [repo of Singapore locations](https://github.com/xkjyeah/singapore-postal-codes) scraped from OneMap is publicly available online. Although the data is from 2017, it is nonetheless a good starting base for this effort. The repo was cloned and saved to [data/singapore-postal-codes](../data/singapore-postal-codes/).
+
+A typical location data entry in the repo looks like this:
 
 ![Example of raw location data entry](./images/location-data-example.png)
 
-For each location data entry, the desired outcomes were as such:
+For each location data entry, the desired outcomes would hence be the following:
 
 1. Extract the building name, street name, postal code and address
 2. Convert these item names from Title Case (block letters) to standard English capitalisation
 
 ### Locations Entry Extraction
 
-For each location, extracting the building name, street name, postal code and address was desired. A script was created to extract the first three from the data entries directly.
+Building name, street name and postal code can be directly extracted from each location's data entry. While there is also an address value for every location data entry, the desired format as seen below is significantly truncated as compared to the address values present.
 
-For the latter, extracting a simple address consisting of the building/block number and street name was preferred over extracting the full, raw address entry. This is as location addresses in Singapore are more often referred to in this manner. The initial method to do so relied on the method below
+    BUILDING NUMBER-ROAD NAME
+    1 SPRINGLEAF WALK
+
+To create this truncated "simple address", the address value would have to be modified. Initially, the truncation of the address value into a "simple address" relied on the method below.
 
     #not code
     SIMPLE ADDRESS = ADDRESS - POSTAL CODE - SEARCHVAL(if SEARCHVAL != ROAD NAME)
 
-However, this method would not work for examples such this one, where the SEARCHVAL entry reflected the estate name, especially for private estates. The SIMPLE ADDRESS for this particular entry, for instance, would just be "1".
+However, this method would not work for examples such this one, where the SEARCHVAL entry reflected the estate name, especially for private estates. The SIMPLE ADDRESS for this particular entry, for instance, would just be "1 WALK".
 
 ![Example of data entry with odd SEARCHVAL value](./images/weird-location-data-entry.png)
 
-This would result in the simple address only being the building number. This occured for multiple estates. While some SEARCHVAL values were manually corrected, it was untenable to do so for all entries in the list of addresses and buildings. A second method was attempted to create the SIMPLE ADDRESS ENTRY
+This occured for multiple estates. While some SEARCHVAL values were manually corrected, it was untenable to do so for all entries in the list of addresses and buildings. A second method was attempted to create the SIMPLE ADDRESS value
 
     #not code
     SIMPLE ADDRESS = BLK_NO + ROAD_NAME

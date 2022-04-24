@@ -1,5 +1,7 @@
 #NOTE: THIS REQUIREMENTS.TXT FILE DOES NOT INCLUDE PACKAGES FOR NEWSPAPER3K, DOCCANO AND WIKIPEDIAAPI AS THE PACKAGE DEPENDENCIES AFFECT STREAMLIT APP DEPLOYMENT
 
+# Some Windows-specific Python packages have been commented out as they affect Streamlit app deployment.
+
 altair==4.2.0
 argon2-cffi==21.3.0
 argon2-cffi-bindings==21.2.0

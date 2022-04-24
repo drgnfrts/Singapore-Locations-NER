@@ -15,27 +15,21 @@ The necessary packages can be found in the [requirements.txt](./requirements.txt
         !pip install newspaper3k
         !pip install doccano
 
-## Model Creation Process
+## Documentation
 
-### Model v1.1, v2.0 and v2.1
+Detailed documentation is available [here](./documentation/documentation.md) for the following items:
 
-- Data was first cleaned and relevant building & road names extracted.
-- An EntityRuler to tag location names with the LOC label was then created with the location name data and added as a a pipe to a pre-existing model.
-- loc_er was then used to generate annotations to be used as training data.
-- Training data (900+ sets) was converted to spaCy v3 binary files, with the ratio of training data to validation data being 50:50.
-
-- By nature of the training config settings, v1.1 only consists of NER and tok2vec pipes. v2.0 and 2.1 have tagger and parser pipes added before the NER component, enabling the model greater accuracy.
-- v2.1 has loc_er added as a pipe before the NER pipe to act as a "dictionary" to catch addresses that the NER may not be able to.
-
-### Model v3.0
-
-- Multiple articles and text were broken into sentences and passed into a txt file, with each sentence occupying a new line in the file.
-- Sentences were annotated manually with LOC, ORG or FAC labels and the data downloaded back.
-- Training data (~1600 sets) was converted to spaCy v3 binary files, with the ratio of training data to validation data being 80:20.
-
-- The nature of manual annotation meant more entities could be captured, making it the most accurate model thus far. It is able to pick up addresses without the need for the loc_er pipe, and has a rudimentary ability to distinguish when a particular organisation is being referrred to as a location and vice versa.
+- Project Background
+- Instructions on running the NER Model on Streamlit and within the IDE
+- Model Creation Process and considerations behind the process
 
 ## Updates
+
+CAA 240422:
+
+- First draft of documentation completed.
+- Scripts in training scripts folder given additional comments for reference
+- Streamlit mini-app script cleaned and given comments for reference
 
 CAA 160422:
 
