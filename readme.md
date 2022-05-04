@@ -1,15 +1,36 @@
 # Named Entity Recogniser for Singapore Location Names
 
-Hello! This is my first repo and this project was done for Singapore's Urban Redevelopment Authority, where I am currently (Apr 2022) an intern. :)
+Hello! This is my first repo and this project was done for the Design & Planning Lab at Singapore's Urban Redevelopment Authority, where I am interning at through July 2022. :)
 
-spaCy NLP Library was utilised to create this Named Entity Recogniser. Three versions of the model have been trained. v1.1 and v2.0/2.1 used spaCy's native EntityRuler pipe to auto-annotate and create the training data, while v3.0's training data was annotated manually using [Doccano](https://github.com/doccano/doccano).
+Named Entity Recognition (NER) is a component of Natural Language Processing, where named entities in text are detected and labelled accordingly. This repo contains NER Models built to handle Singapore Location Names, and the underlying scripts and configurations used to train the NER models.
 
-Some portions of code/data was derived from the following sources:
+Four NER Models are included in this repo - with v2.1 and v3.0/model-best most optimal for direct use.
 
-Data: [2017 OneMap Data](https://github.com/xkjyeah/singapore-postal-codes) by xkyyeah  
-Model Training: [spaCy v3 Tutorials](https://github.com/wjbmattingly/spacy_tutorials_3x) | [spaCy NER Tutorials](https://github.com/wjbmattingly/ner_youtube/tree/main/lessons) by Dr W.J.B Mattingly
+## Installation and Usage
 
-The necessary packages can be found in the [requirements.txt](./requirements.txt) file. Note that packages for newspaper3k, doccano and wikipediaapi are not included as they affect the Streamlit mini-app deployment If you are installing packages to your environment with the requirements.txt file, please add on these lines in the command terminal to install those packages:
+_git clone_ the repo to your local machine. The required packages for running and viewing the NER Models are on the [requirements.txt](./requirements.txt) file. There are some additional packages used for model training that are not included as they affect the Streamlit Mini-App deployment - see the Additional Packages section below for more information.
+
+### Running Streamlit Mini-App
+
+For quick viewing of the NER Models' capabilities, you can run the Streamlit Mini-App
+
+1.  Ensure that packages and dependencies for Streamlit are downloaded into your environment
+2.  Ensure that the base requirements.txt file from the repo is NOT modified.
+3.  In your terminal, change directory to the main folder of this repo. Type in:
+
+                streamlit run streamlit/model_demo.py
+
+4.  You can now view the app at http://localhost:8501/. Note that the app will take approximately 3-5 minutes to load up.
+
+### Additional Packages
+
+You can run the model both in IDE and Streamlit with only the packages in the base requirements.txt file.
+
+Addtional packages used for model training (specifically _newspaper3k_, _doccano_ and _wikipediaapi_, and their associated dependencies) are **NOT included** in the base requirements.txt file as they affect the Streamlit mini-app deployment.
+
+Downloading addtional packages onto your local environment **will NOT affect** the mini-app, but as Streamlit checks the requirements.txt file to get the necessary packages when hosting, the base requirements.text **should not be modified**. To keep track of additional dependencies, you may need to create a "secondary" requirements.txt file somewhere else.
+
+To install the _newspaper3k_, _doccano_ and _wikipediaapi_ packages used to develop the model, add on these lines in the command terminal:
 
         !pip install wikipediaapi
         !pip install newspaper3k
@@ -20,42 +41,26 @@ The necessary packages can be found in the [requirements.txt](./requirements.txt
 Detailed documentation is available [here](./documentation/documentation.md) for the following items:
 
 - Project Background
-- Instructions on running the NER Model on Streamlit and within the IDE
+- Instructions on running the NER Model within an IDE
 - Model Creation Process and considerations behind the process
 
-## Updates
+## Credits
 
-CAA 240422:
+The NER Models were trained using libraries and model creation frameworks from [spaCy v3](https://spacy.io/), with manual annotations for the models created using [Doccano](https://github.com/doccano/doccano).
 
-- First draft of documentation completed.
-- Scripts in training scripts folder given additional comments for reference
-- Streamlit mini-app script cleaned and given comments for reference
+Some data and portions of code in the scripts were derived or sourced directly from the following sources:
 
-CAA 160422:
+Locations Data: [2017 OneMap Data - GitHub](https://github.com/xkjyeah/singapore-postal-codes) by Daniel Sim/xkyyeah  
+spaCy v3 Model Training Scripts: [spaCy Tutorials 3x - GitHub](https://github.com/wjbmattingly/spacy_tutorials_3x) | [spaCy NER Youtube Tutorials - GitHub](https://github.com/wjbmattingly/ner_youtube/tree/main/lessons) by Dr William Mattingly  
+Doccano to spaCy v2 Script: [Training spaCy NER Models with Doccano](https://medium.com/@justindavies/training-spacy-ner-models-with-doccano-8d8203e29bfa) by Justin Davies
 
-- Updated documentation.md
-- Reorganised some files
+I would like to sincerely thank the Urban Redevelopment Authority's Design & Planning Lab for allocating resources and support to enable the creation of this project, especially my internship mentors, who have provided much needed strategic and technical guidance.
 
-CAA 140422:
+## Licenses
 
-- Took down and reuploaded repo to remove residual Git LFS files, which were clogging up the previous iteration of the repo
-- Fixed requirements.txt file. Note that it lacks the packages for newspaper3k, wikipediaapi and doccano as the file is used for Streamlit app deployment and some packages for these files affect app deployment.
-- Added documentation.md
+2017 OneMap Data - [Daniel Sim / xkyyeah](https://github.com/xkjyeah) & © [Singapore Land Authority](https://www.onemap.gov.sg/legal/termsofuse.html)  
+spaCy v3 Tutorials & spaCy NER Tutorials - © [Dr William Mattingly](https://wjbmattingly.com/)  
+Training spaCy NER Models with Doccano - © [Justin Davies](https://medium.com/@justindavies)  
+Other Raw Training Data - respective copyright holders
 
-CAA 290322:
-
-- Added scripts to handle and convert traindata from Doccano
-- Added script to run a mini Streamlit app under streamlit/model_demo.py
-- Added a third, Doccano-based model under model_v3.0/model_best
-- Fixed some file references
-
-CAA 100322:
-
-- Added the Locations EntityRuler to the second model, labelled as model_v2.1
-- First and second models renamed to model_v1.0 and model_v2.0 respectively
-- Shifted scripts handling the training process to a new training_scripts folder
-
-CAA 030322:
-
-- Added a second model under models/second_model, the second model has tok2vec, tagger and parser components based off spaCy's native en_core_web_md model, which has improved the accuracy of the NER tagging
-- Added requirements.text file. The list is lengthy as the environment was created with Anaconda, and not all files are required. Still trying to work out which exact files may be needed.
+Everything else - [MIT © 2022 Nicolas Tang](LICENSE.md)

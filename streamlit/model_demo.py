@@ -108,7 +108,7 @@ def find_ents(model, input, abr_lengthen):
 # Dictionary for def display_models() to reference
 model_choice = {"Standard Model": ("Pre-trained Standard English Model 💂", models["std"]),
                 "Dictionary Model": ("Dictionary-centric Model for SG Locations 📖", models["erl"]),
-                "NER-based Model": ("Enhanced NER-based Model for SG Locations 🦁", models["dcn"])
+                "NER-based Model": ("Enhanced NER-centric Model for SG Locations 🦁", models["dcn"])
                 }
 
 
