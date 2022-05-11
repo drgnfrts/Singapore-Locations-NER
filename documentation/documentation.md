@@ -30,6 +30,7 @@ Create a re-trainable and potentially scalable Named Entity Recognition model fo
 - [Running the Model](#running-the-model)
   - [Running Model on Streamlit](#running-model-on-streamlit)
   - [Running Model within IDE](#running-model-within-ide)
+  - [(new!) Running Model in API Service](#new-running-model-in-api-service)
 - [Repo Organisation](#repo-organisation)
 - [Model Creation Process](#model-creation-process)
   - [Location Data Collection & Cleaning](#location-data-collection--cleaning)
@@ -115,6 +116,26 @@ doc = nlp("This example text was created at 45 Maxwell Road.")
 displacy.render(doc, style="ent")
 ```
 
+## (new!) Running Model in API Service
+
+Ensure packages and dependencies for spaCy and FastAPI are downloaded into your environment
+
+For access from the IDE via a curl request:
+
+    curl -X 'POST' \
+      'http://127.0.0.1:8000/find-locations-POST' \
+      -H 'accept: application/json' \
+      -H 'Content-Type: application/json' \
+      -d '{
+      "text": "The Urban Redevelopment Authority is located at 45 Maxwell Road."
+    }'
+
+To instead view the API performance in a "documentation" format, first change directory to _fastapi_ .In the command line, type:
+
+    uvicorn working:app --reload
+
+You can now view the API in "documentation mode" at http://127.0.0.1:8000/docs
+
 # Repo Organisation
 
 The repo is organised into the following folders:
@@ -130,6 +151,8 @@ The repo is organised into the following folders:
 |                  | training_datasets          | Training and Test Datasets for spaCy in json and spacy binary formats       |
 | documentation    |                            | Full documentation for the project                                          |
 |                  | images                     | Image references for this documentation markdown file                       |
+| fastapi          |                            | Scripts & packages to run NER Model as an API service                       |
+| geocode          |                            | Scripts & notes for geocoding of locations post text analysis               |
 | models           | loc_er                     | _en_core_web_md_ model with "locations dictionary" EntityRuler pipe added   |
 |                  | v1.1                       | Trial to create base model for Dictionary-centric method                    |
 |                  | v2.0                       | Base model for Dictionary-centric method                                    |

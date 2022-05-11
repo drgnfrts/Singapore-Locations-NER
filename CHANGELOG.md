@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.4] 🗓️ - 11/05/2022
+
+### Added
+
+- Script to run POST requests for NER with Model v3.0, built with FastAPI
+
 ## [1.0.3] 🗓️ - 04/05/2022
 
 ### Added

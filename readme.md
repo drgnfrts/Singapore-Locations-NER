@@ -36,6 +36,12 @@ To install the _newspaper3k_, _doccano_ and _wikipediaapi_ packages used to deve
         !pip install newspaper3k
         !pip install doccano
 
+The packages to run the script for FastAPI are currently not yet on the requirements.txt file while I figure out if the dependencies will affect Streamlit deployment. For now, please add on:
+
+        !pip install fastapi
+        !pip install pydantic
+        !pip install uvicorn
+
 ## Documentation
 
 Detailed documentation is available [here](./documentation/documentation.md) for the following items:
