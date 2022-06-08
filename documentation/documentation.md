@@ -30,7 +30,8 @@ Create a re-trainable and potentially scalable Named Entity Recognition model fo
 - [Running the Model](#running-the-model)
   - [Running Model on Streamlit](#running-model-on-streamlit)
   - [Running Model within IDE](#running-model-within-ide)
-  - [(new!) Running Model in API Service](#new-running-model-in-api-service)
+  - [Running Model in API Service](#running-model-in-api-service)
+  - [Evaluating Model in Command Line (Model v3.1 only)](#evaluating-model-in-command-line-model-v31-only)
 - [Repo Organisation](#repo-organisation)
 - [Model Creation Process](#model-creation-process)
   - [Location Data Collection & Cleaning](#location-data-collection--cleaning)
@@ -44,7 +45,7 @@ Create a re-trainable and potentially scalable Named Entity Recognition model fo
     - [Conversion to spaCy v3.0 binary format](#conversion-to-spacy-v30-binary-format)
   - [Model Training](#model-training)
     - [Considerations and configuration for v1.1](#considerations-and-configuration-for-v11)
-    - [Considerations and configuration for v2.0 and v3.0](#considerations-and-configuration-for-v20-and-v30)
+    - [Considerations and configuration for v2.0, v3.0 and v3.1](#considerations-and-configuration-for-v20-v30-and-v31)
     - [Adding EntityRuler to v2.0 to create v2.1](#adding-entityruler-to-v20-to-create-v21)
 
 # Models Available
@@ -60,6 +61,7 @@ Two models were conceptualised to in creating the NER Model for Singapore locati
 | v2.0   | Dictionary-centric | Build base pipeline                                      |    EntityRuler    |         ❌          |
 | v2.1   | Dictionary-centric | Add "Dictionary of Locations" to v2.0                    |    EntityRuler    |         ✔️          |
 | v3.0   | Enhanced NER-based | Create more flexible model by only using an enhanced NER |      Doccano      |         ✔️          |
+| v3.1   | Enhanced NER-based | Enhance capability of v3.0 by adding more annotations    |      Doccano      |         ✔️          |
 
 The Enhanced NER-based model is most flexible - it can pick out new locations, location names with case or spelling deviations, and has a rudimentary ability to differentiate named entities that can be tagged with both LOC and ORG
 
@@ -73,6 +75,7 @@ Pipes are arranged in order from left to right.
 | v2.0   |    ✔️     |     ✔️     |        ✔️         |                 ❌                 | ✔️  |
 | v2.1   |    ✔️     |     ✔️     |        ✔️         |                 ✔️                 | ✔️  |
 | v3.0   |    ✔️     |     ✔️     |        ✔️         |                 ❌                 | ✔️  |
+| v3.1   |    ✔️     |     ✔️     |        ✔️         |                 ❌                 | ✔️  |
 
 # Running the Model
 
@@ -87,7 +90,7 @@ streamlit run streamlit/model_demo.py
 
 3. You can now view the app at http://localhost:8501/
 
-Note that the Streamlit mini-app will only display Model v2.1 and v3.0.
+Note that the Streamlit mini-app will only display Model v2.1, v3.0 and 3.1
 
 ## Running Model within IDE
 
@@ -116,7 +119,7 @@ doc = nlp("This example text was created at 45 Maxwell Road.")
 displacy.render(doc, style="ent")
 ```
 
-## (new!) Running Model in API Service
+## Running Model in API Service
 
 Ensure packages and dependencies for spaCy and FastAPI are downloaded into your environment
 
@@ -135,6 +138,14 @@ To instead view the API performance in a "documentation" format, first change di
     uvicorn working:app --reload
 
 You can now view the API in "documentation mode" at http://127.0.0.1:8000/docs
+
+## Evaluating Model in Command Line (Model v3.1 only)
+
+You can now evaluate Model v3.1 in comparison to a (completely unknown to Model v3.1) "Gold Standard" annotated Evaluation Dataset. You may also use this Evaluation Dataset to evaluate other NERs so long as they have not been exposed to it during the training process.
+
+Ensure you have changed directory in your terminal to the main folder of this repo, and that spaCy has been downloaded to your environment. In the command line, key in:
+
+    spacy evaluate models/model_v3.1/model-best data/training_datasets/golden_set.spacy
 
 # Repo Organisation
 
@@ -158,6 +169,7 @@ The repo is organised into the following folders:
 |                  | v2.0                       | Base model for Dictionary-centric method                                    |
 |                  | v2.1                       | v2.0/model-best with "locations dictionary" EntityRuler pipe added          |
 |                  | v3.0                       | Enhanced NER-based model                                                    |
+|                  | v3.1                       | Enhanced NER-based model, updated from v3.0 with more datasets              |
 | streamlit        |                            | Model Demo for Streamlit                                                    |
 | training_config  |                            | Base configuration and final configuration files for models                 |
 | trianing_scripts |                            | Scripts for model training common to both methods                           |
@@ -346,18 +358,21 @@ Make sure to first randomise the order of the annotation data entries, then spli
 
 For reference, this is how the data is organised in [data/training_datasets](../data/training_datasets):
 
-| Data Type                                | Formatted for v2.0           | Formatted for v3.0 (USE THIS!) |
-| ---------------------------------------- | ---------------------------- | ------------------------------ |
-| All Annotation Datasets (ER method)      | full_train_data_er.json      |                                |
-| Training Datasets (ER method)            | training_set_er.json         | training_set_er.spacy          |
-| Validation Datasets (ER method)          | validation_set_er.json       | validation_set_er.spacy        |
-| All Annotation Datasets (Doccano method) | full_train_data_doccano.json |                                |
-| Training Datasets (Doccano method)       | training_set_doccano.json    | training_set_doccano.spacy     |
-| Validation Datasets (Doccano method)     | validation_set_doccano.json  | validation_set_doccano.spacy   |
+| Data Type                             | Formatted for spaCy 2.0      | Formatted for spaCy 3.0 (USE THIS!) |
+| ------------------------------------- | ---------------------------- | ----------------------------------- |
+| v2.0/ER All Annotation Datasets       | full_train_data_er.json      |                                     |
+| v2.0/ER Training Datasets             | training_set_er.json         | training_set_er.spacy               |
+| v2.0/ER Validation Datasets           | validation_set_er.json       | validation_set_er.spacy             |
+| v3.0/Doccano All Annotation Datasets  | full_train_data_doccano.json |                                     |
+| v3.0/Doccano Training Datasets        | training_set_doccano.json    | training_set_doccano.spacy          |
+| v3.0/Doccano Validation Datasets      | validation_set_doccano.json  | validation_set_doccano.spacy        |
+| v3.1/Doccano Training Datasets        | training_set_v3.1.json       | training_set_v3.1.spacy             |
+| v3.1/Doccano Validation Datasets      | validation_set_v3.1.json     | validation_set_v3.1.spacy           |
+| Evaluation Dataset (For TESTING ONLY) | golden_set.json              | golden_set.spacy                    |
 
 ## Model Training
 
-Model training in spaCy v3.0 makes use of a configuration file. Go to [spaCy's website](https://spacy.io/usage/training), select the pipes wanted and method of model creation, then copy the configuration into a _base_config.cfg_ file.
+Model training in spaCy 3.0 makes use of a configuration file. Go to [spaCy's website](https://spacy.io/usage/training), select the pipes wanted and method of model creation, then copy the configuration into a _base_config.cfg_ file.
 
 Once copied over, create the final config file by typing in the command line:
 
@@ -396,12 +411,12 @@ And replace with this:
 
 The model can be trained once done. The performance of the model was very poor and was deemed unsuitable to be a base pipeline for the Dictionary-centric model.
 
-### Considerations and configuration for v2.0 and v3.0
+### Considerations and configuration for v2.0, v3.0 and v3.1
 
 ![Model v2.0 architecture](./images/mv20architecture.jpg)
 ![Model v3.0 architecture](./images/mv30architecture.jpg)
 
-Model v2.0 and v3.0 have the same base pipeline architecture, consisting (in order) of tok2vec, tagger, parser and NER pipes. The only difference between the two is in the source of training data, with v2.0 using the EntityRuler-generated training data and v3.0 using the Doccano-annotated training data.
+Model v2.0, v3.0 and 3.1 have the same base pipeline architecture, consisting (in order) of tok2vec, tagger, parser and NER pipes. The only difference between the two is in the source of training data, with v2.0 using the EntityRuler-generated training data and v3.0 using the Doccano-annotated training data. Model v3.1 uses the exact same pipeline as v3.0, but uses a larger/newer Doccano-annotated training dataset.
 
 On the spaCy site, select the following quickstart options, then copy the base configuration generated.
 
@@ -419,7 +434,7 @@ Model v2.0:
     vectors = null
     init_tok2vec = null
 
-Model v3.0:
+Model v3.0/3.1:
 
     [paths]
     train = ./data/training_datasets/training_set_doccano.spacy
@@ -427,7 +442,7 @@ Model v3.0:
     vectors = null
     init_tok2vec = null
 
-Secondly, for both model v2.0 and model v3.0, edit the tok2vec, tagger and parser sections to ensure that they use the pipes from the pre-built en_core_web_sm model.
+Secondly, edit the tok2vec, tagger and parser sections to ensure that they use the pipes from the pre-built en_core_web_sm model.
 
 Delete all component subsections after _components.ner.model.tok2vec_
 
@@ -450,7 +465,7 @@ Replace with:
     [components.tok2vec]
     source = "en_core_web_md"
 
-The models can now be trained. As the NER pipe in Model v3.0 was fed annotation data of greater quantity, quality and variety as compared to Model v2.0, it is the most accurate of all the models generated.
+The models can now be trained. As the NER pipe in Model v3.1 was fed annotation data of greater quantity, quality and variety as compared to Model v2.0 and v3.0, it is the most accurate of all the models generated. Model v3.0, having been trained on the exact same pipeline as 3.1 but with fewer datasets, comes in second.
 
 Model v2.0 still holds its own as compared to the lacklustre Model v1.0, and performs decently enough to act as a "safety net" in a Dictionary-centric NER Model.
 

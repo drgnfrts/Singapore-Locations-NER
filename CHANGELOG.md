@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## [1.1.0] 🗓️ - 08/06/2022
+
+### Added
+
+- New dataset of locations text & annotations (suffixed with \_v3.1)
+- _model_v3.1_ , a new Enhanced NER-centric model trained on a larger (1598 > 2180) dataset
+- "Gold Standard" Evaluation Annotated Dataset & Evaluation Script (golden_set.spacy)
+
+### Changed
+
+- Updated Streamlit Mini-App script to enable users to run Model 3.1 on Streamlit
+- Updated Documentation for Model 3.1 + how to evaluate with the "Gold Standard" set
+
 ## [1.0.4] 🗓️ - 11/05/2022
 
 ### Added

@@ -22,6 +22,15 @@ For quick viewing of the NER Models' capabilities, you can run the Streamlit Min
 
 4.  You can now view the app at http://localhost:8501/. Note that the app will take approximately 3-5 minutes to load up.
 
+### Comparison to Other Models
+
+An Evaluation Dataset unseen by the Model is available for you to make a comparison with any other seperately trained NER Model. Note that this Evaluation Dataset is only to be used for comparisons with Model 3.1.
+
+1.  Ensure that packages and dependencies for spaCy are downloaded into your environment
+2.  In your terminal, change directory to the main folder of this repo. Type in:
+
+        spacy evaluate (link to your model) data/training_datasets/golden_set.spacy
+
 ### Additional Packages
 
 You can run the model both in IDE and Streamlit with only the packages in the base requirements.txt file.
@@ -68,5 +77,6 @@ I would like to sincerely thank the Urban Redevelopment Authority's Design & Pla
 spaCy v3 Tutorials & spaCy NER Tutorials - © [Dr William Mattingly](https://wjbmattingly.com/)  
 Training spaCy NER Models with Doccano - © [Justin Davies](https://medium.com/@justindavies)  
 Other Raw Training Data - respective copyright holders
+spaCy functionalities - © [Explosion AI](https://github.com/explosion/spaCy/blob/master/LICENSE)
 
 Everything else - [MIT © 2022 Nicolas Tang](LICENSE.md)

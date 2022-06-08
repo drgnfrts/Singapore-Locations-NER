@@ -40,7 +40,9 @@ def load_models():
     standard_model = spacy.load("en_core_web_md")
     er_model = spacy.load("./models/model_v2.1")
     doccano_model = spacy.load("./models/model_v3.0/model-best")
-    models = {"std": standard_model, "erl": er_model, "dcn": doccano_model}
+    v31_model = spacy.load("./models/model_v3.1/model-best")
+    models = {"std": standard_model, "erl": er_model,
+              "dcn": doccano_model, "v31": v31_model}
     return models
 
 
@@ -87,10 +89,10 @@ def clear_form():
 def select_models(all_models_selected):
     if all_models_selected == True:
         selected_models = container.multiselect("Choose one or more models to analyse text with:", [
-            'Standard Model', 'Dictionary Model', 'NER-based Model'], ['Standard Model', 'Dictionary Model', 'NER-based Model'])
+            'Standard Model', 'Dictionary Model', 'NER Model 3.0', 'NER Model 3.1'], ['Standard Model', 'Dictionary Model', 'NER Model 3.0', 'NER Model 3.1'])
     else:
         selected_models = container.multiselect("Choose one or more models to analyse text with:", [
-            'Standard Model', 'Dictionary Model', 'NER-based Model'])
+            'Standard Model', 'Dictionary Model', 'NER Model 3.0', 'NER Model 3.1'])
     return selected_models
 
 
@@ -108,7 +110,8 @@ def find_ents(model, input, abr_lengthen):
 # Dictionary for def display_models() to reference
 model_choice = {"Standard Model": ("Pre-trained Standard English Model 💂", models["std"]),
                 "Dictionary Model": ("Dictionary-centric Model for SG Locations 📖", models["erl"]),
-                "NER-based Model": ("Enhanced NER-centric Model for SG Locations 🦁", models["dcn"])
+                "NER Model 3.0": ("Enhanced NER-centric Model 3.0 for SG Locations 🦁", models["dcn"]),
+                "NER Model 3.1": ("Enhanced NER-centric Model 3.1 for SG Locations 🆕", models["v31"])
                 }
 
 
