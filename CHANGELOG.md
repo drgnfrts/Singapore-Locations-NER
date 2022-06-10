@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## [1.1.1] 🗓️ - 10/06/2022
+
+### Added
+
+- New folders to organise the Training and Validation Annotation Datasets
+
+### Changed
+
+- Updated scripts for converting annotation datasets from Doccano to spaCy v2 & spaCy v2 to v3
+- Put up notice in scripts warning against overwriting existing datasets, especially the Evaluation Dataset
+- Updated source of training and validation data for config files handling training for Models v2.0, 3.0 and 3.1
+
 ## [1.1.0] 🗓️ - 08/06/2022
 
 ### Added

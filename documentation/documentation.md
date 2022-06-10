@@ -145,7 +145,9 @@ You can now evaluate Model v3.1 in comparison to a (completely unknown to Model 
 
 Ensure you have changed directory in your terminal to the main folder of this repo, and that spaCy has been downloaded to your environment. In the command line, key in:
 
-    spacy evaluate models/model_v3.1/model-best data/training_datasets/golden_set.spacy
+    spacy evaluate models/model_v3.1/model-best data/training_datasets/evaluation_for_v3.1+.spacy
+
+Note that introduction of additional datasets used for training of Model v3.1 and below into the Evaluation Set will result in bias of the Evaluation Set towards Model. **NEVER MODIFY THE EVALUATION SET!!!**
 
 # Repo Organisation
 
@@ -159,7 +161,7 @@ The repo is organised into the following folders:
 |                  | extracted_locations        | Singapore locations data, post-cleaning                                     |
 |                  | singapore-postal-codes     | [OneMap Data](https://github.com/xkjyeah/singapore-postal-codes) by xkyyeah |
 |                  | text_data                  | Text for annotations                                                        |
-|                  | training_datasets          | Training and Test Datasets for spaCy in json and spacy binary formats       |
+|                  | training_datasets          | Training and Validation Datasets for Models v2.0, 3.0 & 3.1                 |
 | documentation    |                            | Full documentation for the project                                          |
 |                  | images                     | Image references for this documentation markdown file                       |
 | fastapi          |                            | Scripts & packages to run NER Model as an API service                       |
