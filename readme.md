@@ -4,7 +4,7 @@ Hello! This is my first repo and this project was done for the Design & Planning
 
 Named Entity Recognition (NER) is a component of Natural Language Processing, where named entities in text are detected and labelled accordingly. This repo contains NER Models built to handle Singapore Location Names, and the underlying scripts and configurations used to train the NER models.
 
-Four NER Models are included in this repo - with v2.1 and v3.0/model-best most optimal for direct use.
+Five NER Models are included in this repo - with v2.1, v3.0/model-best and v3.1/model-best most optimal for direct use.
 
 ## Installation and Usage
 

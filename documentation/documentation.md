@@ -157,6 +157,7 @@ The repo is organised into the following folders:
 | ---------------- | -------------------------- | --------------------------------------------------------------------------- |
 | archive          |                            | Jupyter Notebooks use to trial certain scripts                              |
 |                  | doccano_trial              | Imported data from a Doccano test annotation trial                          |
+|                  | geocode                    | Deprecated plan for Geocoding of locations                                  |
 | data             | doccano_annotated_data     | Imported final Doccano annotations for v3.0                                 |
 |                  | extracted_locations        | Singapore locations data, post-cleaning                                     |
 |                  | singapore-postal-codes     | [OneMap Data](https://github.com/xkjyeah/singapore-postal-codes) by xkyyeah |
@@ -165,7 +166,6 @@ The repo is organised into the following folders:
 | documentation    |                            | Full documentation for the project                                          |
 |                  | images                     | Image references for this documentation markdown file                       |
 | fastapi          |                            | Scripts & packages to run NER Model as an API service                       |
-| geocode          |                            | Scripts & notes for geocoding of locations post text analysis               |
 | models           | loc_er                     | _en_core_web_md_ model with "locations dictionary" EntityRuler pipe added   |
 |                  | v1.1                       | Trial to create base model for Dictionary-centric method                    |
 |                  | v2.0                       | Base model for Dictionary-centric method                                    |

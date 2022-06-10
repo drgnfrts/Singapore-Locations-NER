@@ -1,6 +1,22 @@
 # CHANGELOG
 
-## [1.1.1] 🗓️ - 10/06/2022
+**NOTE: This Project is complete and further updates are unlikely**
+
+## Version History
+
+- [[1.1.1] - 🗓️ 10/06/2022](#111---️-10062022)
+- [[1.1.0] - 🗓️ 08/06/2022](#110---️-08062022)
+- [[1.0.4] - 🗓️ 11/05/2022](#104---️-11052022)
+- [[1.0.3] - 🗓️ 04/05/2022](#103---️-04052022)
+- [[1.0.2] - 🗓️ 28/04/2022](#102---️-28042022)
+- [[1.0.1] - 🗓️ 24/04/2022](#101---️-24042022)
+- [[1.0.0] - 🗓️ 14/04/2022](#100---️-14042022)
+- [[0.4.0] - 🗓️ 29/03/2022](#040---️-29032022)
+- [[0.3.0] - 🗓️ 10/03/2022](#030---️-10032022)
+- [[0.2.0] - 🗓️ 03/03/2022](#020---️-03032022)
+- [[0.1.0] - 🗓️ 24/02/2022](#010---️-24022022)
+
+## [1.1.1] - 🗓️ 10/06/2022
 
 ### Added
 
@@ -12,7 +28,11 @@
 - Put up notice in scripts warning against overwriting existing datasets, especially the Evaluation Dataset
 - Updated source of training and validation data for config files handling training for Models v2.0, 3.0 and 3.1
 
-## [1.1.0] 🗓️ - 08/06/2022
+### Deprecated
+
+- Geocoding Plan - project no longer continuing, placed in archives folder
+
+## [1.1.0] - 🗓️ 08/06/2022
 
 ### Added
 
@@ -25,13 +45,13 @@
 - Updated Streamlit Mini-App script to enable users to run Model 3.1 on Streamlit
 - Updated Documentation for Model 3.1 + how to evaluate with the "Gold Standard" set
 
-## [1.0.4] 🗓️ - 11/05/2022
+## [1.0.4] - 🗓️ 11/05/2022
 
 ### Added
 
 - Script to run POST requests for NER with Model v3.0, built with FastAPI
 
-## [1.0.3] 🗓️ - 04/05/2022
+## [1.0.3] - 🗓️ 04/05/2022
 
 ### Added
 
@@ -42,13 +62,13 @@
 
 - Streamlined readme.md
 
-## [1.0.2] 🗓️ - 28/04/2022
+## [1.0.2] - 🗓️ 28/04/2022
 
 ### Added
 
 - LICENSE.md
 
-## [1.0.1] 🗓️ - 24/04/2022
+## [1.0.1] - 🗓️ 24/04/2022
 
 ### Changed
 
