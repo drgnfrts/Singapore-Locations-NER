@@ -1,10 +1,10 @@
 # Named Entity Recogniser for Singapore Location Names
 
-Hello! This is my first repo and this project was done for the Design & Planning Lab at Singapore's Urban Redevelopment Authority, where I am interning at through July 2022. :)
+Hello! This is my first repo and this project was done for the Design & Planning Lab at Singapore's Urban Redevelopment Authority, where I interned at from December 2021 to July 2022. :)
 
 Named Entity Recognition (NER) is a component of Natural Language Processing, where named entities in text are detected and labelled accordingly. This repo contains NER Models built to handle Singapore Location Names, and the underlying scripts and configurations used to train the NER models.
 
-Five NER Models are included in this repo - with v2.1, v3.0/model-best and v3.1/model-best most optimal for direct use.
+Five NER Models are included in this repo - with v3.1/model-best most optimal for direct use. This repo is considered complete and will not be updated further.
 
 ## Installation and Usage
 
@@ -76,7 +76,7 @@ I would like to sincerely thank the Urban Redevelopment Authority's Design & Pla
 2017 OneMap Data - [Daniel Sim / xkyyeah](https://github.com/xkjyeah) & © [Singapore Land Authority](https://www.onemap.gov.sg/legal/termsofuse.html)  
 spaCy v3 Tutorials & spaCy NER Tutorials - © [Dr William Mattingly](https://wjbmattingly.com/)  
 Training spaCy NER Models with Doccano - © [Justin Davies](https://medium.com/@justindavies)  
-Other Raw Training Data - respective copyright holders
+Other raw training data - respective copyright holders
 spaCy functionalities - © [Explosion AI](https://github.com/explosion/spaCy/blob/master/LICENSE)
 
 Everything else - [MIT © 2022 Nicolas Tang](LICENSE.md)
